@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: TopySpaceShip.ma
-//Last modified: Thu, Feb 01, 2018 07:52:04 PM
+//Last modified: Thu, Feb 01, 2018 07:56:08 PM
 //Codeset: UTF-8
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
