@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: HeroCharacter.ma
-//Last modified: Sat, Feb 03, 2018 02:02:22 PM
+//Last modified: Sat, Feb 03, 2018 02:04:13 PM
 //Codeset: UTF-8
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -8823,8 +8823,8 @@ createNode mesh -n "polySurfaceShape3" -p "L_Knee";
 createNode transform -s -n "persp";
 	rename -uid "C925993A-E74E-3D55-63C2-3CB906B9C77F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -6.5008792151104968 12.218693769007352 11.297905735060885 ;
-	setAttr ".r" -type "double3" -21.938352729615026 -31.400000000009555 -9.3156572860592663e-16 ;
+	setAttr ".t" -type "double3" -6.2559138471339661 11.421367608300399 11.791107021097098 ;
+	setAttr ".r" -type "double3" -20.138352729615086 -30.600000000009661 1.8475655781179035e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5CDB6F96-7D48-9CB3-30A1-90AD03284543";
 	setAttr -k off ".v" no;
