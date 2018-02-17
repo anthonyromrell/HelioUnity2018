@@ -7,8 +7,8 @@ public abstract class GamePieceBase : ScriptableObject {
 	//Parameters
 	//Art (GameObject)
 	//Piece Location
+	public GameBoardBase GameBoard;
 	public GameObject Art;
-
 	public GameObject MovePattern;
 	public GameSide GameSide;
 

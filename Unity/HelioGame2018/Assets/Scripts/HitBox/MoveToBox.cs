@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveToBox : MonoBehaviour {
+public class MoveToBox : MonoBehaviour
+{
+
+	public GameBoardBase GameBoard;
 	
 	private void OnMouseUp()
 	{
-		//Move Clicked Game Piece to this objects transform position
+		GameBoard.PieceReLocation = transform;
+		GameBoard.MovePiece();
 	}
 }

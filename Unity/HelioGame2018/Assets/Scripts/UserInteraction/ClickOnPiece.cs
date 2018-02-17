@@ -7,8 +7,13 @@ public class ClickOnPiece : MonoBehaviour
 
 	public GamePieceBase GamePiece;
 
+	public GameObject Pattern;
+
 	private void OnMouseDown()
 	{
-		GamePiece.StartMove();
+		//GamePiece.StartMove();
+		Pattern.SetActive(true);
+		GamePiece.GameBoard.CurrentPiece = transform;
+		print(GamePiece.GameBoard.CurrentPiece);
 	}
 }

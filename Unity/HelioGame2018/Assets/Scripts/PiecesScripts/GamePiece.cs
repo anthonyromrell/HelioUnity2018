@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Knight")]
-public class Knight : GamePieceBase {
+public class GamePiece : GamePieceBase {
 
 
 

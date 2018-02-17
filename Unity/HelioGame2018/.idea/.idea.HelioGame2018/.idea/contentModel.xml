@@ -21,10 +21,9 @@
             <e p="MoveToBox.cs" t="Include" />
           </e>
           <e p="PiecesScripts" t="Include">
+            <e p="GamePiece.cs" t="Include" />
             <e p="GamePieceBase.cs" t="Include" />
             <e p="GameSide.cs" t="Include" />
-            <e p="Knight.cs" t="Include" />
-            <e p="Queen.cs" t="Include" />
           </e>
           <e p="UserInteraction" t="Include">
             <e p="ClickOnPiece.cs" t="Include" />
