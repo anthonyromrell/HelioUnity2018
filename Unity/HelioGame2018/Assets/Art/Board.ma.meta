@@ -1,0 +1,1122 @@
+fileFormatVersion: 2
+guid: bd966a834d38e420c8fae98c10377d52
+timeCreated: 1518760144
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BasePiece
+    100002: //RootNode
+    100004: Board
+    100006: Bishop
+    100008: ChessHitGrid
+    100010: group1
+    100012: group10
+    100014: group2
+    100016: group3
+    100018: group4
+    100020: group5
+    100022: group6
+    100024: group7
+    100026: group8
+    100028: group9
+    100030: HitBox
+    100032: HitBox 1
+    100034: HitBox 10
+    100036: HitBox 11
+    100038: HitBox 12
+    100040: HitBox 13
+    100042: HitBox 14
+    100044: HitBox 15
+    100046: HitBox 16
+    100048: HitBox 17
+    100050: HitBox 18
+    100052: HitBox 19
+    100054: HitBox 2
+    100056: HitBox 20
+    100058: HitBox 21
+    100060: HitBox 22
+    100062: HitBox 23
+    100064: HitBox 24
+    100066: HitBox 25
+    100068: HitBox 26
+    100070: HitBox 27
+    100072: HitBox 28
+    100074: HitBox 29
+    100076: HitBox 3
+    100078: HitBox 30
+    100080: HitBox 4
+    100082: HitBox 5
+    100084: HitBox 6
+    100086: HitBox 7
+    100088: HitBox 8
+    100090: HitBox 9
+    100092: HitBox0
+    100094: HitBox0 1
+    100096: HitBox0 2
+    100098: HitBox1
+    100100: HitBox10
+    100102: HitBox102
+    100104: HitBox102 1
+    100106: HitBox11
+    100108: HitBox11 1
+    100110: HitBox11 2
+    100112: HitBox113
+    100114: HitBox113 1
+    100116: HitBox113 2
+    100118: HitBox12
+    100120: HitBox13
+    100122: HitBox14
+    100124: HitBox15
+    100126: HitBox16
+    100128: HitBox17
+    100130: HitBox18
+    100132: HitBox19
+    100134: HitBox19 1
+    100136: HitBox19 2
+    100138: HitBox2
+    100140: HitBox20
+    100142: HitBox21
+    100144: HitBox22
+    100146: HitBox23
+    100148: HitBox24
+    100150: HitBox24 1
+    100152: HitBox25
+    100154: HitBox26
+    100156: HitBox27
+    100158: HitBox27 1
+    100160: HitBox27 2
+    100162: HitBox28
+    100164: HitBox28 1
+    100166: HitBox29
+    100168: HitBox3
+    100170: HitBox30
+    100172: HitBox31
+    100174: HitBox32
+    100176: HitBox33
+    100178: HitBox34
+    100180: HitBox35
+    100182: HitBox35 1
+    100184: HitBox35 2
+    100186: HitBox35 3
+    100188: HitBox36
+    100190: HitBox37
+    100192: HitBox38
+    100194: HitBox38 1
+    100196: HitBox39
+    100198: HitBox4
+    100200: HitBox40
+    100202: HitBox41
+    100204: HitBox42
+    100206: HitBox43
+    100208: HitBox43 1
+    100210: HitBox43 2
+    100212: HitBox43 3
+    100214: HitBox44
+    100216: HitBox45
+    100218: HitBox46
+    100220: HitBox47
+    100222: HitBox48
+    100224: HitBox49
+    100226: HitBox5
+    100228: HitBox50
+    100230: HitBox51
+    100232: HitBox51 1
+    100234: HitBox51 2
+    100236: HitBox51 3
+    100238: HitBox51 4
+    100240: HitBox51 5
+    100242: HitBox52
+    100244: HitBox53
+    100246: HitBox54
+    100248: HitBox54 1
+    100250: HitBox55
+    100252: HitBox56
+    100254: HitBox56 1
+    100256: HitBox56 2
+    100258: HitBox56 3
+    100260: HitBox57
+    100262: HitBox57 1
+    100264: HitBox57 2
+    100266: HitBox58
+    100268: HitBox59
+    100270: HitBox6
+    100272: HitBox60
+    100274: HitBox60 1
+    100276: HitBox61
+    100278: HitBox62
+    100280: HitBox63
+    100282: HitBox7
+    100284: HitBox7 1
+    100286: HitBox7 2
+    100288: HitBox71
+    100290: HitBox71 1
+    100292: HitBox71 2
+    100294: HitBox72
+    100296: HitBox72 1
+    100298: HitBox73
+    100300: HitBox73 1
+    100302: HitBox74
+    100304: HitBox74 1
+    100306: HitBox75
+    100308: HitBox75 1
+    100310: HitBox76
+    100312: HitBox76 1
+    100314: HitBox77
+    100316: HitBox77 1
+    100318: HitBox78
+    100320: HitBox78 1
+    100322: HitBox78 2
+    100324: HitBox79
+    100326: HitBox79 1
+    100328: HitBox8
+    100330: HitBox80
+    100332: HitBox80 1
+    100334: HitBox81
+    100336: HitBox81 1
+    100338: HitBox82
+    100340: HitBox82 1
+    100342: HitBox83
+    100344: HitBox83 1
+    100346: HitBox84
+    100348: HitBox84 1
+    100350: HitBox85
+    100352: HitBox85 1
+    100354: HitBox85 2
+    100356: HitBox85 3
+    100358: HitBox86
+    100360: HitBox86 1
+    100362: HitBox87
+    100364: HitBox87 1
+    100366: HitBox88
+    100368: HitBox88 1
+    100370: HitBox89
+    100372: HitBox89 1
+    100374: HitBox9
+    100376: HitBox90
+    100378: HitBox90 1
+    100380: HitBox91
+    100382: HitBox91 1
+    100384: HitBox92
+    100386: HitBox92 1
+    100388: HitBox92 2
+    100390: HitBox92 3
+    100392: HitBox93
+    100394: HitBox93 1
+    100396: HitBox94
+    100398: HitBox94 1
+    100400: HitBox95
+    100402: HitBox95 1
+    100404: HitBox96
+    100406: HitBox96 1
+    100408: HitBox97
+    100410: HitBox97 1
+    100412: HitBox98
+    100414: HitBox98 1
+    100416: HitBox99
+    100418: HitBox99 1
+    100420: HitBox99 2
+    100422: King
+    100424: Knight
+    100426: Pawn
+    100428: Queen
+    100430: Rook
+    100432: ChessBoard
+    400000: BasePiece
+    400002: //RootNode
+    400004: Board
+    400006: Bishop
+    400008: ChessHitGrid
+    400010: group1
+    400012: group10
+    400014: group2
+    400016: group3
+    400018: group4
+    400020: group5
+    400022: group6
+    400024: group7
+    400026: group8
+    400028: group9
+    400030: HitBox
+    400032: HitBox 1
+    400034: HitBox 10
+    400036: HitBox 11
+    400038: HitBox 12
+    400040: HitBox 13
+    400042: HitBox 14
+    400044: HitBox 15
+    400046: HitBox 16
+    400048: HitBox 17
+    400050: HitBox 18
+    400052: HitBox 19
+    400054: HitBox 2
+    400056: HitBox 20
+    400058: HitBox 21
+    400060: HitBox 22
+    400062: HitBox 23
+    400064: HitBox 24
+    400066: HitBox 25
+    400068: HitBox 26
+    400070: HitBox 27
+    400072: HitBox 28
+    400074: HitBox 29
+    400076: HitBox 3
+    400078: HitBox 30
+    400080: HitBox 4
+    400082: HitBox 5
+    400084: HitBox 6
+    400086: HitBox 7
+    400088: HitBox 8
+    400090: HitBox 9
+    400092: HitBox0
+    400094: HitBox0 1
+    400096: HitBox0 2
+    400098: HitBox1
+    400100: HitBox10
+    400102: HitBox102
+    400104: HitBox102 1
+    400106: HitBox11
+    400108: HitBox11 1
+    400110: HitBox11 2
+    400112: HitBox113
+    400114: HitBox113 1
+    400116: HitBox113 2
+    400118: HitBox12
+    400120: HitBox13
+    400122: HitBox14
+    400124: HitBox15
+    400126: HitBox16
+    400128: HitBox17
+    400130: HitBox18
+    400132: HitBox19
+    400134: HitBox19 1
+    400136: HitBox19 2
+    400138: HitBox2
+    400140: HitBox20
+    400142: HitBox21
+    400144: HitBox22
+    400146: HitBox23
+    400148: HitBox24
+    400150: HitBox24 1
+    400152: HitBox25
+    400154: HitBox26
+    400156: HitBox27
+    400158: HitBox27 1
+    400160: HitBox27 2
+    400162: HitBox28
+    400164: HitBox28 1
+    400166: HitBox29
+    400168: HitBox3
+    400170: HitBox30
+    400172: HitBox31
+    400174: HitBox32
+    400176: HitBox33
+    400178: HitBox34
+    400180: HitBox35
+    400182: HitBox35 1
+    400184: HitBox35 2
+    400186: HitBox35 3
+    400188: HitBox36
+    400190: HitBox37
+    400192: HitBox38
+    400194: HitBox38 1
+    400196: HitBox39
+    400198: HitBox4
+    400200: HitBox40
+    400202: HitBox41
+    400204: HitBox42
+    400206: HitBox43
+    400208: HitBox43 1
+    400210: HitBox43 2
+    400212: HitBox43 3
+    400214: HitBox44
+    400216: HitBox45
+    400218: HitBox46
+    400220: HitBox47
+    400222: HitBox48
+    400224: HitBox49
+    400226: HitBox5
+    400228: HitBox50
+    400230: HitBox51
+    400232: HitBox51 1
+    400234: HitBox51 2
+    400236: HitBox51 3
+    400238: HitBox51 4
+    400240: HitBox51 5
+    400242: HitBox52
+    400244: HitBox53
+    400246: HitBox54
+    400248: HitBox54 1
+    400250: HitBox55
+    400252: HitBox56
+    400254: HitBox56 1
+    400256: HitBox56 2
+    400258: HitBox56 3
+    400260: HitBox57
+    400262: HitBox57 1
+    400264: HitBox57 2
+    400266: HitBox58
+    400268: HitBox59
+    400270: HitBox6
+    400272: HitBox60
+    400274: HitBox60 1
+    400276: HitBox61
+    400278: HitBox62
+    400280: HitBox63
+    400282: HitBox7
+    400284: HitBox7 1
+    400286: HitBox7 2
+    400288: HitBox71
+    400290: HitBox71 1
+    400292: HitBox71 2
+    400294: HitBox72
+    400296: HitBox72 1
+    400298: HitBox73
+    400300: HitBox73 1
+    400302: HitBox74
+    400304: HitBox74 1
+    400306: HitBox75
+    400308: HitBox75 1
+    400310: HitBox76
+    400312: HitBox76 1
+    400314: HitBox77
+    400316: HitBox77 1
+    400318: HitBox78
+    400320: HitBox78 1
+    400322: HitBox78 2
+    400324: HitBox79
+    400326: HitBox79 1
+    400328: HitBox8
+    400330: HitBox80
+    400332: HitBox80 1
+    400334: HitBox81
+    400336: HitBox81 1
+    400338: HitBox82
+    400340: HitBox82 1
+    400342: HitBox83
+    400344: HitBox83 1
+    400346: HitBox84
+    400348: HitBox84 1
+    400350: HitBox85
+    400352: HitBox85 1
+    400354: HitBox85 2
+    400356: HitBox85 3
+    400358: HitBox86
+    400360: HitBox86 1
+    400362: HitBox87
+    400364: HitBox87 1
+    400366: HitBox88
+    400368: HitBox88 1
+    400370: HitBox89
+    400372: HitBox89 1
+    400374: HitBox9
+    400376: HitBox90
+    400378: HitBox90 1
+    400380: HitBox91
+    400382: HitBox91 1
+    400384: HitBox92
+    400386: HitBox92 1
+    400388: HitBox92 2
+    400390: HitBox92 3
+    400392: HitBox93
+    400394: HitBox93 1
+    400396: HitBox94
+    400398: HitBox94 1
+    400400: HitBox95
+    400402: HitBox95 1
+    400404: HitBox96
+    400406: HitBox96 1
+    400408: HitBox97
+    400410: HitBox97 1
+    400412: HitBox98
+    400414: HitBox98 1
+    400416: HitBox99
+    400418: HitBox99 1
+    400420: HitBox99 2
+    400422: King
+    400424: Knight
+    400426: Pawn
+    400428: Queen
+    400430: Rook
+    400432: ChessBoard
+    2300000: BasePiece
+    2300002: Board
+    2300004: HitBox
+    2300006: HitBox 1
+    2300008: HitBox 10
+    2300010: HitBox 11
+    2300012: HitBox 12
+    2300014: HitBox 13
+    2300016: HitBox 14
+    2300018: HitBox 15
+    2300020: HitBox 16
+    2300022: HitBox 17
+    2300024: HitBox 18
+    2300026: HitBox 19
+    2300028: HitBox 2
+    2300030: HitBox 20
+    2300032: HitBox 21
+    2300034: HitBox 22
+    2300036: HitBox 23
+    2300038: HitBox 24
+    2300040: HitBox 25
+    2300042: HitBox 26
+    2300044: HitBox 27
+    2300046: HitBox 28
+    2300048: HitBox 29
+    2300050: HitBox 3
+    2300052: HitBox 30
+    2300054: HitBox 4
+    2300056: HitBox 5
+    2300058: HitBox 6
+    2300060: HitBox 7
+    2300062: HitBox 8
+    2300064: HitBox 9
+    2300066: HitBox0
+    2300068: HitBox0 1
+    2300070: HitBox0 2
+    2300072: HitBox1
+    2300074: HitBox10
+    2300076: HitBox102
+    2300078: HitBox102 1
+    2300080: HitBox11
+    2300082: HitBox11 1
+    2300084: HitBox11 2
+    2300086: HitBox113
+    2300088: HitBox113 1
+    2300090: HitBox113 2
+    2300092: HitBox12
+    2300094: HitBox13
+    2300096: HitBox14
+    2300098: HitBox15
+    2300100: HitBox16
+    2300102: HitBox17
+    2300104: HitBox18
+    2300106: HitBox19
+    2300108: HitBox19 1
+    2300110: HitBox19 2
+    2300112: HitBox2
+    2300114: HitBox20
+    2300116: HitBox21
+    2300118: HitBox22
+    2300120: HitBox23
+    2300122: HitBox24
+    2300124: HitBox24 1
+    2300126: HitBox25
+    2300128: HitBox26
+    2300130: HitBox27
+    2300132: HitBox27 1
+    2300134: HitBox27 2
+    2300136: HitBox28
+    2300138: HitBox28 1
+    2300140: HitBox29
+    2300142: HitBox3
+    2300144: HitBox30
+    2300146: HitBox31
+    2300148: HitBox32
+    2300150: HitBox33
+    2300152: HitBox34
+    2300154: HitBox35
+    2300156: HitBox35 1
+    2300158: HitBox35 2
+    2300160: HitBox35 3
+    2300162: HitBox36
+    2300164: HitBox37
+    2300166: HitBox38
+    2300168: HitBox38 1
+    2300170: HitBox39
+    2300172: HitBox4
+    2300174: HitBox40
+    2300176: HitBox41
+    2300178: HitBox42
+    2300180: HitBox43
+    2300182: HitBox43 1
+    2300184: HitBox43 2
+    2300186: HitBox43 3
+    2300188: HitBox44
+    2300190: HitBox45
+    2300192: HitBox46
+    2300194: HitBox47
+    2300196: HitBox48
+    2300198: HitBox49
+    2300200: HitBox5
+    2300202: HitBox50
+    2300204: HitBox51
+    2300206: HitBox51 1
+    2300208: HitBox51 2
+    2300210: HitBox51 3
+    2300212: HitBox51 4
+    2300214: HitBox51 5
+    2300216: HitBox52
+    2300218: HitBox53
+    2300220: HitBox54
+    2300222: HitBox54 1
+    2300224: HitBox55
+    2300226: HitBox56
+    2300228: HitBox56 1
+    2300230: HitBox56 2
+    2300232: HitBox56 3
+    2300234: HitBox57
+    2300236: HitBox57 1
+    2300238: HitBox57 2
+    2300240: HitBox58
+    2300242: HitBox59
+    2300244: HitBox6
+    2300246: HitBox60
+    2300248: HitBox60 1
+    2300250: HitBox61
+    2300252: HitBox62
+    2300254: HitBox63
+    2300256: HitBox7
+    2300258: HitBox7 1
+    2300260: HitBox7 2
+    2300262: HitBox71
+    2300264: HitBox71 1
+    2300266: HitBox71 2
+    2300268: HitBox72
+    2300270: HitBox72 1
+    2300272: HitBox73
+    2300274: HitBox73 1
+    2300276: HitBox74
+    2300278: HitBox74 1
+    2300280: HitBox75
+    2300282: HitBox75 1
+    2300284: HitBox76
+    2300286: HitBox76 1
+    2300288: HitBox77
+    2300290: HitBox77 1
+    2300292: HitBox78
+    2300294: HitBox78 1
+    2300296: HitBox78 2
+    2300298: HitBox79
+    2300300: HitBox79 1
+    2300302: HitBox8
+    2300304: HitBox80
+    2300306: HitBox80 1
+    2300308: HitBox81
+    2300310: HitBox81 1
+    2300312: HitBox82
+    2300314: HitBox82 1
+    2300316: HitBox83
+    2300318: HitBox83 1
+    2300320: HitBox84
+    2300322: HitBox84 1
+    2300324: HitBox85
+    2300326: HitBox85 1
+    2300328: HitBox85 2
+    2300330: HitBox85 3
+    2300332: HitBox86
+    2300334: HitBox86 1
+    2300336: HitBox87
+    2300338: HitBox87 1
+    2300340: HitBox88
+    2300342: HitBox88 1
+    2300344: HitBox89
+    2300346: HitBox89 1
+    2300348: HitBox9
+    2300350: HitBox90
+    2300352: HitBox90 1
+    2300354: HitBox91
+    2300356: HitBox91 1
+    2300358: HitBox92
+    2300360: HitBox92 1
+    2300362: HitBox92 2
+    2300364: HitBox92 3
+    2300366: HitBox93
+    2300368: HitBox93 1
+    2300370: HitBox94
+    2300372: HitBox94 1
+    2300374: HitBox95
+    2300376: HitBox95 1
+    2300378: HitBox96
+    2300380: HitBox96 1
+    2300382: HitBox97
+    2300384: HitBox97 1
+    2300386: HitBox98
+    2300388: HitBox98 1
+    2300390: HitBox99
+    2300392: HitBox99 1
+    2300394: HitBox99 2
+    2300396: ChessBoard
+    3300000: BasePiece
+    3300002: Board
+    3300004: HitBox
+    3300006: HitBox 1
+    3300008: HitBox 10
+    3300010: HitBox 11
+    3300012: HitBox 12
+    3300014: HitBox 13
+    3300016: HitBox 14
+    3300018: HitBox 15
+    3300020: HitBox 16
+    3300022: HitBox 17
+    3300024: HitBox 18
+    3300026: HitBox 19
+    3300028: HitBox 2
+    3300030: HitBox 20
+    3300032: HitBox 21
+    3300034: HitBox 22
+    3300036: HitBox 23
+    3300038: HitBox 24
+    3300040: HitBox 25
+    3300042: HitBox 26
+    3300044: HitBox 27
+    3300046: HitBox 28
+    3300048: HitBox 29
+    3300050: HitBox 3
+    3300052: HitBox 30
+    3300054: HitBox 4
+    3300056: HitBox 5
+    3300058: HitBox 6
+    3300060: HitBox 7
+    3300062: HitBox 8
+    3300064: HitBox 9
+    3300066: HitBox0
+    3300068: HitBox0 1
+    3300070: HitBox0 2
+    3300072: HitBox1
+    3300074: HitBox10
+    3300076: HitBox102
+    3300078: HitBox102 1
+    3300080: HitBox11
+    3300082: HitBox11 1
+    3300084: HitBox11 2
+    3300086: HitBox113
+    3300088: HitBox113 1
+    3300090: HitBox113 2
+    3300092: HitBox12
+    3300094: HitBox13
+    3300096: HitBox14
+    3300098: HitBox15
+    3300100: HitBox16
+    3300102: HitBox17
+    3300104: HitBox18
+    3300106: HitBox19
+    3300108: HitBox19 1
+    3300110: HitBox19 2
+    3300112: HitBox2
+    3300114: HitBox20
+    3300116: HitBox21
+    3300118: HitBox22
+    3300120: HitBox23
+    3300122: HitBox24
+    3300124: HitBox24 1
+    3300126: HitBox25
+    3300128: HitBox26
+    3300130: HitBox27
+    3300132: HitBox27 1
+    3300134: HitBox27 2
+    3300136: HitBox28
+    3300138: HitBox28 1
+    3300140: HitBox29
+    3300142: HitBox3
+    3300144: HitBox30
+    3300146: HitBox31
+    3300148: HitBox32
+    3300150: HitBox33
+    3300152: HitBox34
+    3300154: HitBox35
+    3300156: HitBox35 1
+    3300158: HitBox35 2
+    3300160: HitBox35 3
+    3300162: HitBox36
+    3300164: HitBox37
+    3300166: HitBox38
+    3300168: HitBox38 1
+    3300170: HitBox39
+    3300172: HitBox4
+    3300174: HitBox40
+    3300176: HitBox41
+    3300178: HitBox42
+    3300180: HitBox43
+    3300182: HitBox43 1
+    3300184: HitBox43 2
+    3300186: HitBox43 3
+    3300188: HitBox44
+    3300190: HitBox45
+    3300192: HitBox46
+    3300194: HitBox47
+    3300196: HitBox48
+    3300198: HitBox49
+    3300200: HitBox5
+    3300202: HitBox50
+    3300204: HitBox51
+    3300206: HitBox51 1
+    3300208: HitBox51 2
+    3300210: HitBox51 3
+    3300212: HitBox51 4
+    3300214: HitBox51 5
+    3300216: HitBox52
+    3300218: HitBox53
+    3300220: HitBox54
+    3300222: HitBox54 1
+    3300224: HitBox55
+    3300226: HitBox56
+    3300228: HitBox56 1
+    3300230: HitBox56 2
+    3300232: HitBox56 3
+    3300234: HitBox57
+    3300236: HitBox57 1
+    3300238: HitBox57 2
+    3300240: HitBox58
+    3300242: HitBox59
+    3300244: HitBox6
+    3300246: HitBox60
+    3300248: HitBox60 1
+    3300250: HitBox61
+    3300252: HitBox62
+    3300254: HitBox63
+    3300256: HitBox7
+    3300258: HitBox7 1
+    3300260: HitBox7 2
+    3300262: HitBox71
+    3300264: HitBox71 1
+    3300266: HitBox71 2
+    3300268: HitBox72
+    3300270: HitBox72 1
+    3300272: HitBox73
+    3300274: HitBox73 1
+    3300276: HitBox74
+    3300278: HitBox74 1
+    3300280: HitBox75
+    3300282: HitBox75 1
+    3300284: HitBox76
+    3300286: HitBox76 1
+    3300288: HitBox77
+    3300290: HitBox77 1
+    3300292: HitBox78
+    3300294: HitBox78 1
+    3300296: HitBox78 2
+    3300298: HitBox79
+    3300300: HitBox79 1
+    3300302: HitBox8
+    3300304: HitBox80
+    3300306: HitBox80 1
+    3300308: HitBox81
+    3300310: HitBox81 1
+    3300312: HitBox82
+    3300314: HitBox82 1
+    3300316: HitBox83
+    3300318: HitBox83 1
+    3300320: HitBox84
+    3300322: HitBox84 1
+    3300324: HitBox85
+    3300326: HitBox85 1
+    3300328: HitBox85 2
+    3300330: HitBox85 3
+    3300332: HitBox86
+    3300334: HitBox86 1
+    3300336: HitBox87
+    3300338: HitBox87 1
+    3300340: HitBox88
+    3300342: HitBox88 1
+    3300344: HitBox89
+    3300346: HitBox89 1
+    3300348: HitBox9
+    3300350: HitBox90
+    3300352: HitBox90 1
+    3300354: HitBox91
+    3300356: HitBox91 1
+    3300358: HitBox92
+    3300360: HitBox92 1
+    3300362: HitBox92 2
+    3300364: HitBox92 3
+    3300366: HitBox93
+    3300368: HitBox93 1
+    3300370: HitBox94
+    3300372: HitBox94 1
+    3300374: HitBox95
+    3300376: HitBox95 1
+    3300378: HitBox96
+    3300380: HitBox96 1
+    3300382: HitBox97
+    3300384: HitBox97 1
+    3300386: HitBox98
+    3300388: HitBox98 1
+    3300390: HitBox99
+    3300392: HitBox99 1
+    3300394: HitBox99 2
+    3300396: ChessBoard
+    4300000: Board
+    4300002: BasePiece
+    4300004: HitBox4
+    4300006: HitBox5
+    4300008: HitBox
+    4300010: HitBox7
+    4300012: HitBox6
+    4300014: HitBox33
+    4300016: HitBox34
+    4300018: HitBox35
+    4300020: HitBox37
+    4300022: HitBox36
+    4300024: HitBox32
+    4300026: HitBox63
+    4300028: HitBox62
+    4300030: HitBox61
+    4300032: HitBox60
+    4300034: HitBox59
+    4300036: HitBox58
+    4300038: HitBox57
+    4300040: HitBox56
+    4300042: HitBox55
+    4300044: HitBox54
+    4300046: HitBox53
+    4300048: HitBox52
+    4300050: HitBox51
+    4300052: HitBox50
+    4300054: HitBox49
+    4300056: HitBox48
+    4300058: HitBox47
+    4300060: HitBox46
+    4300062: HitBox45
+    4300064: HitBox44
+    4300066: HitBox43
+    4300068: HitBox42
+    4300070: HitBox41
+    4300072: HitBox40
+    4300074: HitBox21
+    4300076: HitBox20
+    4300078: HitBox23
+    4300080: HitBox19
+    4300082: HitBox22
+    4300084: HitBox18
+    4300086: HitBox28
+    4300088: HitBox31
+    4300090: HitBox29
+    4300092: HitBox30
+    4300094: HitBox27
+    4300096: HitBox26
+    4300098: HitBox25
+    4300100: HitBox24
+    4300102: HitBox10
+    4300104: HitBox9
+    4300106: HitBox11
+    4300108: HitBox15
+    4300110: HitBox13
+    4300112: HitBox12
+    4300114: HitBox8
+    4300116: HitBox14
+    4300118: HitBox2
+    4300120: HitBox3
+    4300122: HitBox1
+    4300124: HitBox17
+    4300126: HitBox16
+    4300128: HitBox39
+    4300130: HitBox38
+    4300132: HitBox51
+    4300134: HitBox43
+    4300136: HitBox35
+    4300138: HitBox27
+    4300140: HitBox19
+    4300142: HitBox11
+    4300144: HitBox7
+    4300146: HitBox113
+    4300148: HitBox
+    4300150: HitBox
+    4300152: HitBox
+    4300154: HitBox
+    4300156: HitBox
+    4300158: HitBox
+    4300160: HitBox71
+    4300162: HitBox72
+    4300164: HitBox73
+    4300166: HitBox74
+    4300168: HitBox75
+    4300170: HitBox76
+    4300172: HitBox77
+    4300174: HitBox78
+    4300176: HitBox79
+    4300178: HitBox80
+    4300180: HitBox81
+    4300182: HitBox82
+    4300184: HitBox83
+    4300186: HitBox84
+    4300188: HitBox85
+    4300190: HitBox86
+    4300192: HitBox87
+    4300194: HitBox88
+    4300196: HitBox89
+    4300198: HitBox90
+    4300200: HitBox91
+    4300202: HitBox92
+    4300204: HitBox93
+    4300206: HitBox94
+    4300208: HitBox95
+    4300210: HitBox96
+    4300212: HitBox97
+    4300214: HitBox98
+    4300216: HitBox99
+    4300218: HitBox57
+    4300220: HitBox56
+    4300222: HitBox102
+    4300224: HitBox
+    4300226: HitBox
+    4300228: HitBox
+    4300230: HitBox0
+    4300232: HitBox
+    4300234: HitBox
+    4300236: HitBox
+    4300238: HitBox
+    4300240: HitBox
+    4300242: HitBox
+    4300244: HitBox35
+    4300246: HitBox60
+    4300248: HitBox56
+    4300250: HitBox54
+    4300252: HitBox51
+    4300254: HitBox28
+    4300256: HitBox24
+    4300258: HitBox38
+    4300260: HitBox78
+    4300262: HitBox79
+    4300264: HitBox80
+    4300266: HitBox81
+    4300268: HitBox82
+    4300270: HitBox83
+    4300272: HitBox84
+    4300274: HitBox85
+    4300276: HitBox86
+    4300278: HitBox87
+    4300280: HitBox88
+    4300282: HitBox89
+    4300284: HitBox90
+    4300286: HitBox91
+    4300288: HitBox92
+    4300290: HitBox93
+    4300292: HitBox94
+    4300294: HitBox95
+    4300296: HitBox96
+    4300298: HitBox97
+    4300300: HitBox98
+    4300302: HitBox0
+    4300304: HitBox
+    4300306: HitBox
+    4300308: HitBox
+    4300310: HitBox
+    4300312: HitBox
+    4300314: HitBox
+    4300316: HitBox51
+    4300318: HitBox43
+    4300320: HitBox35
+    4300322: HitBox27
+    4300324: HitBox19
+    4300326: HitBox11
+    4300328: HitBox7
+    4300330: HitBox113
+    4300332: HitBox
+    4300334: HitBox
+    4300336: HitBox
+    4300338: HitBox
+    4300340: HitBox
+    4300342: HitBox
+    4300344: HitBox71
+    4300346: HitBox72
+    4300348: HitBox73
+    4300350: HitBox74
+    4300352: HitBox75
+    4300354: HitBox76
+    4300356: HitBox77
+    4300358: HitBox99
+    4300360: HitBox57
+    4300362: HitBox56
+    4300364: HitBox102
+    4300366: HitBox
+    4300368: HitBox
+    4300370: HitBox
+    4300372: HitBox51
+    4300374: HitBox113
+    4300376: HitBox71
+    4300378: HitBox78
+    4300380: HitBox85
+    4300382: HitBox92
+    4300384: HitBox99
+    4300386: HitBox0
+    4300388: HitBox51
+    4300390: HitBox43
+    4300392: HitBox85
+    4300394: HitBox92
+    4300396: ChessBoard
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 28ec30911ad5c4886a7fb3af39ba8595, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

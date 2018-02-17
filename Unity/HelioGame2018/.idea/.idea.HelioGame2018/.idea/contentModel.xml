@@ -13,13 +13,22 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Mono" t="Include">
-            <e p="Player.cs" t="Include" />
-            <e p="PowerUpTrigger.cs" t="Include" />
+          <e p="Board" t="Include">
+            <e p="GameBoardBase.cs" t="Include" />
           </e>
-          <e p="ScriptableObjects" t="Include">
-            <e p="PlayerData.cs" t="Include" />
-            <e p="PowerUpData.cs" t="Include" />
+          <e p="HitBox" t="Include">
+            <e p="DisableHitBox.cs" t="Include" />
+            <e p="MoveToBox.cs" t="Include" />
+          </e>
+          <e p="PiecesScripts" t="Include">
+            <e p="GamePieceBase.cs" t="Include" />
+            <e p="GameSide.cs" t="Include" />
+            <e p="Knight.cs" t="Include" />
+            <e p="Queen.cs" t="Include" />
+          </e>
+          <e p="UserInteraction" t="Include">
+            <e p="ClickOnPiece.cs" t="Include" />
+            <e p="UserInteraction.cs" t="Include" />
           </e>
         </e>
       </e>
@@ -27,7 +36,9 @@
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_HelioGame2018.449219274.00" t="ExcludeRecursive" />
   </component>
