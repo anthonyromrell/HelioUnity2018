@@ -1,0 +1,3 @@
+[submodule "Unity/HelioGame2018/Assets/Chess"]
+	path = Unity/HelioGame2018/Assets/Chess
+	url = https://github.com/anthonyromrell/Chess.git
