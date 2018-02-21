@@ -5,32 +5,38 @@
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Chess" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Board" t="Include">
+              <e p="GameBoardBase.cs" t="Include" />
+            </e>
+            <e p="HitBox" t="Include">
+              <e p="Board.cs" t="Include" />
+              <e p="DisableHitBox.cs" t="Include" />
+              <e p="MoveToBox.cs" t="Include" />
+            </e>
+            <e p="Outside" t="Include">
+              <e p="ReplaceWithPrefab.cs" t="Include" />
+            </e>
+            <e p="PiecesScripts" t="Include">
+              <e p="GamePiece.cs" t="Include" />
+              <e p="GamePieceBase.cs" t="Include" />
+              <e p="GameSide.cs" t="Include" />
+            </e>
+            <e p="TheBasics" t="Include">
+              <e p="Syntax.cs" t="Include" />
+            </e>
+            <e p="UserInteraction" t="Include">
+              <e p="ClickOnPiece.cs" t="Include" />
+              <e p="UserInteraction.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
             </e>
-          </e>
-        </e>
-        <e p="Scripts" t="Include">
-          <e p="Board" t="Include">
-            <e p="GameBoardBase.cs" t="Include" />
-          </e>
-          <e p="HitBox" t="Include">
-            <e p="DisableHitBox.cs" t="Include" />
-            <e p="MoveToBox.cs" t="Include" />
-          </e>
-          <e p="Outside" t="Include">
-            <e p="ReplaceWithPrefab.cs" t="Include" />
-          </e>
-          <e p="PiecesScripts" t="Include">
-            <e p="GamePiece.cs" t="Include" />
-            <e p="GamePieceBase.cs" t="Include" />
-            <e p="GameSide.cs" t="Include" />
-          </e>
-          <e p="UserInteraction" t="Include">
-            <e p="ClickOnPiece.cs" t="Include" />
-            <e p="UserInteraction.cs" t="Include" />
           </e>
         </e>
       </e>

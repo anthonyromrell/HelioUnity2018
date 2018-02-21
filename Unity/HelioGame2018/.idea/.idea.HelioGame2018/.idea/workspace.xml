@@ -11,64 +11,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MoveToBox.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitBox/MoveToBox.cs">
+      <file leaf-file-name="Syntax.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/TheBasics/Syntax.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <marker date="1518939476800" expanded="true" signature="6:78" ph="..." />
-                <marker date="1518939476800" expanded="true" signature="118:256" ph="{...}" />
-                <marker date="1518939476800" expanded="true" signature="182:254" ph="{...}" />
+                <marker date="1519182255954" expanded="true" signature="6:92" ph="..." />
+                <marker date="1519182255954" expanded="true" signature="406:444" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameBoardBase.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Board/GameBoardBase.cs">
+      <file leaf-file-name="GamePiece.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePiece.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="90">
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
-                <marker date="1518939473558" expanded="true" signature="6:78" ph="..." />
-                <marker date="1518939473558" expanded="true" signature="168:402" ph="{...}" />
-                <marker date="1518939473558" expanded="true" signature="172:233" ph="/* Detect Piece Interactions ... */" />
-                <marker date="1518939473558" expanded="true" signature="334:400" ph="{...}" />
+                <marker date="1519184084388" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519184084388" expanded="true" signature="250:287" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ClickOnPiece.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserInteraction/ClickOnPiece.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/UserInteraction/ClickOnPiece.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="60" />
+            <state relative-caret-position="180">
+              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding>
-                <marker date="1518939476798" expanded="true" signature="6:78" ph="..." />
-                <marker date="1518939476798" expanded="true" signature="121:384" ph="{...}" />
-                <marker date="1518939476798" expanded="true" signature="215:382" ph="{...}" />
+                <marker date="1519184430812" expanded="true" signature="6:78" ph="..." />
+                <marker date="1519184430812" expanded="true" signature="121:297" ph="{...}" />
+                <marker date="1519184430812" expanded="true" signature="214:295" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReplaceWithPrefab.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Outside/ReplaceWithPrefab.cs">
+      <file leaf-file-name="MoveToBox.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/MoveToBox.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
-                <marker date="1518917048266" expanded="true" signature="6:37" ph="..." />
-                <marker date="1518917048266" expanded="true" signature="84:1551" ph="{...}" />
-                <marker date="1518917048266" expanded="true" signature="212:265" ph="{...}" />
-                <marker date="1518917048266" expanded="true" signature="288:1549" ph="{...}" />
-                <marker date="1518917048266" expanded="true" signature="424:1444" ph="{...}" />
-                <marker date="1518917048266" expanded="true" signature="522:1440" ph="{...}" />
-                <marker date="1518917048266" expanded="true" signature="686:768" ph="{...}" />
-                <marker date="1518917048266" expanded="true" signature="777:862" ph="{...}" />
-                <marker date="1518917048266" expanded="true" signature="890:965" ph="{...}" />
+                <marker date="1519186976287" expanded="true" signature="6:79" ph="..." />
+                <marker date="1519186976287" expanded="true" signature="229:251" ph="/* GameBoard.PieceReposition = transform; ... */" />
+                <marker date="1519186976287" expanded="true" signature="229:254" ph="{...}" />
+                <marker date="1519186976287" expanded="true" signature="229:256" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/Board.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <marker date="1519187067288" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519187067288" expanded="true" signature="114:288" ph="{...}" />
+                <marker date="1519187067288" expanded="true" signature="219:285" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameBoardBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/Board/GameBoardBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding>
+                <marker date="1519187009760" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519187009760" expanded="true" signature="168:402" ph="{...}" />
+                <marker date="1519187009760" expanded="true" signature="387:400" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GamePieceBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePieceBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <marker date="1519183966525" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519183966525" expanded="true" signature="135:558" ph="{...}" />
+                <marker date="1519183966525" expanded="true" signature="139:189" ph="/* Parameters ... */" />
+                <marker date="1519183966525" expanded="true" signature="344:553" ph="/* public abstract void MovePiece(); ... */" />
               </folding>
             </state>
           </provider>
@@ -77,16 +112,14 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/Board/GameBoardBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../ColorTheory/ColorTheory/Assets/Scripts/Color/GamePieceComponent.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Board/GameBoardBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserInteraction/UserInteraction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Outside/ReplaceWithPrefab.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/GameSide.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserInteraction/ClickOnPiece.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/GamePieceBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HitBox/DisableHitBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HitBox/MoveToBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/GamePiece.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/UserInteraction/ClickOnPiece.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/MoveToBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/TheBasics/Syntax.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/Board.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePieceBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePiece.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -106,13 +139,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HitBox/MoveToBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Outside/ReplaceWithPrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Board/GameBoardBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/TheBasics/Syntax.cs" />
+        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePieceBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePiece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/UserInteraction/ClickOnPiece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/MoveToBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/Board/GameBoardBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/Board.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
     <option name="y" value="23" />
-    <option name="width" value="1281" />
+    <option name="width" value="1440" />
     <option name="height" value="843" />
   </component>
   <component name="ProjectView">
@@ -130,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -138,54 +176,13 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="HelioGame2018 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="HelioGame2018 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="HelioGame2018 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="HelioGame2018 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="HelioGame2018 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Board" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="HelioGame2018 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="HitBox" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="HelioGame2018 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="PiecesScripts" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -216,10 +213,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1281" height="843" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="843" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -247,11 +244,109 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/TheBasics/Syntax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519182255954" expanded="true" signature="6:92" ph="..." />
+            <marker date="1519182255954" expanded="true" signature="406:444" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePiece.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <marker date="1519184084388" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519184084388" expanded="true" signature="250:287" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/UserInteraction/ClickOnPiece.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <marker date="1519184430812" expanded="true" signature="6:78" ph="..." />
+            <marker date="1519184430812" expanded="true" signature="121:297" ph="{...}" />
+            <marker date="1519184430812" expanded="true" signature="214:295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/MoveToBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <marker date="1519186976287" expanded="true" signature="6:79" ph="..." />
+            <marker date="1519186976287" expanded="true" signature="229:251" ph="/* GameBoard.PieceReposition = transform; ... */" />
+            <marker date="1519186976287" expanded="true" signature="229:254" ph="{...}" />
+            <marker date="1519186976287" expanded="true" signature="229:256" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/Board.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1519187067288" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519187067288" expanded="true" signature="114:288" ph="{...}" />
+            <marker date="1519187067288" expanded="true" signature="219:285" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/Board/GameBoardBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <marker date="1519187009760" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519187009760" expanded="true" signature="168:402" ph="{...}" />
+            <marker date="1519187009760" expanded="true" signature="387:400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePieceBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <marker date="1519183966525" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519183966525" expanded="true" signature="135:558" ph="{...}" />
+            <marker date="1519183966525" expanded="true" signature="139:189" ph="/* Parameters ... */" />
+            <marker date="1519183966525" expanded="true" signature="344:553" ph="/* public abstract void MovePiece(); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitBox/MoveToBox.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserInteraction/ClickOnPiece.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Outside/ReplaceWithPrefab.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Board/GameBoardBase.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/TheBasics/Syntax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1519182255954" expanded="true" signature="6:92" ph="..." />
+            <marker date="1519182255954" expanded="true" signature="406:444" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../ColorTheory/ColorTheory/Assets/Scripts/Color/GamePieceComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -263,148 +358,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Pieces/GameSide.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/Knight.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/Queen.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserInteraction/UserInteraction.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <marker date="1518751425689" expanded="false" signature="6:78" ph="..." />
-            <marker date="1518751425689" expanded="true" signature="125:434" ph="{...}" />
-            <marker date="1518751425689" expanded="true" signature="137:427" ph="/* Click On GamePieces ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/GamePiece.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1518900992505" expanded="false" signature="6:78" ph="..." />
-            <marker date="1518900992505" expanded="true" signature="158:408" ph="{...}" />
-            <marker date="1518900992505" expanded="true" signature="196:233" ph="{...}" />
-            <marker date="1518900992505" expanded="true" signature="268:320" ph="{...}" />
-            <marker date="1518900992505" expanded="true" signature="354:406" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/GameSide.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Pieces/GameSide.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/Knight.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/Queen.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserInteraction/UserInteraction.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/GamePiece.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/GameSide.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitBox/DisableHitBox.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/GamePieceBase.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitBox/MoveToBox.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserInteraction/ClickOnPiece.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Outside/ReplaceWithPrefab.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Board/GameBoardBase.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePiece.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <marker date="1518850181916" expanded="false" signature="6:78" ph="..." />
-            <marker date="1518850181916" expanded="true" signature="158:191" ph="{...}" />
+            <marker date="1519184084388" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519184084388" expanded="true" signature="250:287" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitBox/DisableHitBox.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/UserInteraction/ClickOnPiece.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="180">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
-            <marker date="1518898176482" expanded="true" signature="6:78" ph="..." />
-            <marker date="1518898176482" expanded="true" signature="123:278" ph="{...}" />
-            <marker date="1518898176482" expanded="true" signature="151:190" ph="{...}" />
-            <marker date="1518898176482" expanded="true" signature="236:276" ph="{...}" />
+            <marker date="1519184430812" expanded="true" signature="6:78" ph="..." />
+            <marker date="1519184430812" expanded="true" signature="121:297" ph="{...}" />
+            <marker date="1519184430812" expanded="true" signature="214:295" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PiecesScripts/GamePieceBase.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePieceBase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <marker date="1518901119428" expanded="true" signature="6:78" ph="..." />
-            <marker date="1518901119428" expanded="true" signature="135:554" ph="{...}" />
-            <marker date="1518901119428" expanded="true" signature="139:189" ph="/* Parameters ... */" />
-            <marker date="1518901119428" expanded="true" signature="415:549" ph="/* Functions ... */" />
+            <marker date="1519183966525" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519183966525" expanded="true" signature="135:558" ph="{...}" />
+            <marker date="1519183966525" expanded="true" signature="139:189" ph="/* Parameters ... */" />
+            <marker date="1519183966525" expanded="true" signature="344:553" ph="/* public abstract void MovePiece(); ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitBox/MoveToBox.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/MoveToBox.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="165">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
-            <marker date="1518939476800" expanded="true" signature="6:78" ph="..." />
-            <marker date="1518939476800" expanded="true" signature="118:256" ph="{...}" />
-            <marker date="1518939476800" expanded="true" signature="182:254" ph="{...}" />
+            <marker date="1519186976287" expanded="true" signature="6:79" ph="..." />
+            <marker date="1519186976287" expanded="true" signature="229:251" ph="/* GameBoard.PieceReposition = transform; ... */" />
+            <marker date="1519186976287" expanded="true" signature="229:254" ph="{...}" />
+            <marker date="1519186976287" expanded="true" signature="229:256" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserInteraction/ClickOnPiece.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/Board/GameBoardBase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="60" />
+        <state relative-caret-position="195">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
           <folding>
-            <marker date="1518939476798" expanded="true" signature="6:78" ph="..." />
-            <marker date="1518939476798" expanded="true" signature="121:384" ph="{...}" />
-            <marker date="1518939476798" expanded="true" signature="215:382" ph="{...}" />
+            <marker date="1519187009760" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519187009760" expanded="true" signature="168:402" ph="{...}" />
+            <marker date="1519187009760" expanded="true" signature="387:400" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Outside/ReplaceWithPrefab.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/Board.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <marker date="1518917048266" expanded="true" signature="6:37" ph="..." />
-            <marker date="1518917048266" expanded="true" signature="84:1551" ph="{...}" />
-            <marker date="1518917048266" expanded="true" signature="212:265" ph="{...}" />
-            <marker date="1518917048266" expanded="true" signature="288:1549" ph="{...}" />
-            <marker date="1518917048266" expanded="true" signature="424:1444" ph="{...}" />
-            <marker date="1518917048266" expanded="true" signature="522:1440" ph="{...}" />
-            <marker date="1518917048266" expanded="true" signature="686:768" ph="{...}" />
-            <marker date="1518917048266" expanded="true" signature="777:862" ph="{...}" />
-            <marker date="1518917048266" expanded="true" signature="890:965" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Board/GameBoardBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <marker date="1518939473558" expanded="true" signature="6:78" ph="..." />
-            <marker date="1518939473558" expanded="true" signature="168:402" ph="{...}" />
-            <marker date="1518939473558" expanded="true" signature="172:233" ph="/* Detect Piece Interactions ... */" />
-            <marker date="1518939473558" expanded="true" signature="334:400" ph="{...}" />
+            <marker date="1519187067288" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519187067288" expanded="true" signature="114:288" ph="{...}" />
+            <marker date="1519187067288" expanded="true" signature="219:285" ph="{...}" />
           </folding>
         </state>
       </provider>
