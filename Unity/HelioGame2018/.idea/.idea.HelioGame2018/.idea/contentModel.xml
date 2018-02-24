@@ -3,8 +3,10 @@
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AnimBehaviours.cs" t="Include" />
         <e p="Chess" t="Include">
           <e p="Scripts" t="Include">
             <e p="Board" t="Include">
@@ -19,12 +21,13 @@
               <e p="ReplaceWithPrefab.cs" t="Include" />
             </e>
             <e p="PiecesScripts" t="Include">
+              <e p="Animal.cs" t="Include" />
+              <e p="AnimalWork.cs" t="Include" />
+              <e p="Fish.cs" t="Include" />
               <e p="GamePiece.cs" t="Include" />
               <e p="GamePieceBase.cs" t="Include" />
               <e p="GameSide.cs" t="Include" />
-            </e>
-            <e p="TheBasics" t="Include">
-              <e p="Syntax.cs" t="Include" />
+              <e p="Mammal.cs" t="Include" />
             </e>
             <e p="UserInteraction" t="Include">
               <e p="ClickOnPiece.cs" t="Include" />
@@ -36,6 +39,67 @@
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Events" t="Include">
+            <e p="FunctionsAndEvents.cs" t="Include" />
+            <e p="RunSomethingAnything.cs" t="Include" />
+          </e>
+          <e p="EventsAndUserInteractions" t="Include">
+            <e p="ClickEvent.cs" t="Include" />
+            <e p="ClickNewEvent.cs" t="Include" />
+            <e p="DoOther.cs" t="Include" />
+            <e p="NewAction.cs" t="Include" />
+            <e p="PlayAction.cs" t="Include" />
+            <e p="PrintResponce.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TheBasics" t="Include">
+          <e p="Syntax.cs" t="Include" />
+        </e>
+        <e p="Unite" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Code" t="Include">
+              <e p="Elements" t="Include">
+                <e p="AttackElement.cs" t="Include" />
+                <e p="Elemental.cs" t="Include" />
+              </e>
+              <e p="Events" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="EventEditor.cs" t="Include" />
+                </e>
+                <e p="GameEvent.cs" t="Include" />
+                <e p="GameEventListener.cs" t="Include" />
+              </e>
+              <e p="Sets" t="Include">
+                <e p="RuntimeSet.cs" t="Include" />
+                <e p="Thing.cs" t="Include" />
+                <e p="ThingDisabler.cs" t="Include" />
+                <e p="ThingMonitor.cs" t="Include" />
+                <e p="ThingRuntimeSet.cs" t="Include" />
+              </e>
+              <e p="Variables" t="Include">
+                <e p="AnimatorParameterSetter.cs" t="Include" />
+                <e p="AudioParameterSetter.cs" t="Include" />
+                <e p="AudioVolumeSetter.cs" t="Include" />
+                <e p="DamageDealer.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="FloatReferenceDrawer.cs" t="Include" />
+                </e>
+                <e p="FloatReference.cs" t="Include" />
+                <e p="FloatVariable.cs" t="Include" />
+                <e p="ImageFillSetter.cs" t="Include" />
+                <e p="KeyboardMover.cs" t="Include" />
+                <e p="SimpleUnitHealth.cs" t="Include" />
+                <e p="SliderSetter.cs" t="Include" />
+                <e p="StringVariable.cs" t="Include" />
+                <e p="TextReplacer.cs" t="Include" />
+                <e p="UnitHealth.cs" t="Include" />
+                <e p="UnityEventRaiser.cs" t="Include" />
+                <e p="VariableAudioTrigger.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
