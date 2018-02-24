@@ -57,6 +57,7 @@
           </e>
         </e>
         <e p="TheBasics" t="Include">
+          <e p="Players.cs" t="Include" />
           <e p="Syntax.cs" t="Include" />
         </e>
         <e p="Unite" t="Include">

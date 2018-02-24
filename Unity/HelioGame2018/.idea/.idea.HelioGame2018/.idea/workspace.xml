@@ -11,6 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ClickEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <marker date="1519489937869" expanded="false" signature="6:115" ph="..." />
+                <marker date="1519489937869" expanded="true" signature="156:237" ph="{...}" />
+                <marker date="1519489937869" expanded="true" signature="212:235" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FunctionsAndEvents.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Events/FunctionsAndEvents.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -20,32 +34,6 @@
                 <marker date="1519485818116" expanded="true" signature="6:104" ph="..." />
                 <marker date="1519485818116" expanded="true" signature="153:265" ph="{...}" />
                 <marker date="1519485818116" expanded="true" signature="226:263" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GamePieceBase.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePieceBase.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <marker date="1519194239492" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519194239492" expanded="true" signature="135:293" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Animal.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/Animal.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <marker date="1519485818141" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519485818141" expanded="true" signature="127:249" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -127,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimBehaviours.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnimBehaviours.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/AnimBehaviours.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="320">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <marker date="1519489020876" expanded="true" signature="6:115" ph="..." />
                 <marker date="1519489020876" expanded="true" signature="168:457" ph="{...}" />
@@ -142,15 +130,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewAction.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/NewAction.cs">
+      <file leaf-file-name="Syntax.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Syntax.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="193">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
-                <marker date="1519437515768" expanded="false" signature="6:78" ph="..." />
-                <marker date="1519437515768" expanded="true" signature="131:341" ph="{...}" />
-                <marker date="1519437515768" expanded="true" signature="285:339" ph="{...}" />
+                <marker date="1519494430779" expanded="true" signature="6:151" ph="..." />
+                <marker date="1519494430779" expanded="true" signature="188:754" ph="{...}" />
+                <marker date="1519494430779" expanded="true" signature="403:557" ph="{...}" />
+                <marker date="1519494430779" expanded="true" signature="426:454" ph="{...}" />
+                <marker date="1519494430779" expanded="true" signature="466:493" ph="{...}" />
+                <marker date="1519494430779" expanded="true" signature="501:529" ph="{...}" />
+                <marker date="1519494430779" expanded="true" signature="572:676" ph="{...}" />
+                <marker date="1519494430779" expanded="true" signature="627:670" ph="{...}" />
+                <marker date="1519494430779" expanded="true" signature="704:751" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Players.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Players.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <marker date="1519493561268" expanded="false" signature="6:78" ph="..." />
+                <marker date="1519493561268" expanded="true" signature="137:246" ph="{...}" />
+                <marker date="1519493561268" expanded="true" signature="212:243" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -159,6 +167,7 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Players.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../ColorTheory/ColorTheory/Assets/Scripts/Color/GamePieceComponent.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/UserInteraction/ClickOnPiece.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite/Assets/Code/Variables/SimpleUnitHealth.cs" root0="FORCE_HIGHLIGHTING" />
@@ -171,6 +180,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/Mammal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite/Assets/Code/Events/GameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AnimBehaviours.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Syntax.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/FunctionsAndEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickNewEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite/Assets/Code/Events/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -216,7 +226,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickResponce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/PrintResponce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/DoOther.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickNewEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/PlayAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/NewAction.cs" />
@@ -228,6 +237,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/FunctionsAndEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/RunSomethingAnything.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimBehaviours.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Players.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Syntax.cs" />
       </list>
     </option>
   </component>
@@ -296,7 +308,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1400" height="842" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -326,8 +337,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserInteraction/ClickOnPiece.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Outside/ReplaceWithPrefab.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Board/GameBoardBase.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/TheBasics/Syntax.cs" />
     <entry file="file://$PROJECT_DIR$/../../../ColorTheory/ColorTheory/Assets/Scripts/Color/GamePieceComponent.cs">
@@ -492,18 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1519437515764" expanded="false" signature="6:115" ph="..." />
-            <marker date="1519437515764" expanded="true" signature="156:243" ph="{...}" />
-            <marker date="1519437515764" expanded="true" signature="214:241" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePieceBase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -604,15 +601,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1519489937869" expanded="false" signature="6:115" ph="..." />
+            <marker date="1519489937869" expanded="true" signature="156:237" ph="{...}" />
+            <marker date="1519489937869" expanded="true" signature="212:235" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AnimBehaviours.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="320">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <marker date="1519489020876" expanded="true" signature="6:115" ph="..." />
             <marker date="1519489020876" expanded="true" signature="168:457" ph="{...}" />
             <marker date="1519489020876" expanded="true" signature="396:455" ph="{...}" />
             <marker date="1519489020876" expanded="true" signature="426:452" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Players.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1519493561268" expanded="false" signature="6:78" ph="..." />
+            <marker date="1519493561268" expanded="true" signature="137:246" ph="{...}" />
+            <marker date="1519493561268" expanded="true" signature="212:243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Syntax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <marker date="1519494430779" expanded="true" signature="6:151" ph="..." />
+            <marker date="1519494430779" expanded="true" signature="188:754" ph="{...}" />
+            <marker date="1519494430779" expanded="true" signature="403:557" ph="{...}" />
+            <marker date="1519494430779" expanded="true" signature="426:454" ph="{...}" />
+            <marker date="1519494430779" expanded="true" signature="466:493" ph="{...}" />
+            <marker date="1519494430779" expanded="true" signature="501:529" ph="{...}" />
+            <marker date="1519494430779" expanded="true" signature="572:676" ph="{...}" />
+            <marker date="1519494430779" expanded="true" signature="627:670" ph="{...}" />
+            <marker date="1519494430779" expanded="true" signature="704:751" ph="{...}" />
           </folding>
         </state>
       </provider>
