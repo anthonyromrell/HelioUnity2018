@@ -7,3 +7,6 @@
 [submodule "Unity/HelioGAme2018/Assets/Scripts/EventsAndUserInteractions"]
 	path = Unity/HelioGAme2018/Assets/Scripts/EventsAndUserInteractions
 	url = https://github.com/anthonyromrell/EventsAndUserInteractions.git
+[submodule "Unity/HelioGame2018/Assets/CyborgShrimp"]
+	path = Unity/HelioGame2018/Assets/CyborgShrimp
+	url = https://bitbucket.org/anthonyromrell/attackofthegiantcyborgshrimp.git
