@@ -1,9 +1,6 @@
 [submodule "Unity/HelioGame2018/Assets/Chess"]
 	path = Unity/HelioGame2018/Assets/Chess
 	url = https://github.com/anthonyromrell/Chess.git
-[submodule "Unity/HelioGAme2018/Assets/Unite"]
-	path = Unity/HelioGAme2018/Assets/Unite
-	url = https://github.com/anthonyromrell/Unite2017.git
 [submodule "Unity/HelioGAme2018/Assets/Scripts/EventsAndUserInteractions"]
 	path = Unity/HelioGAme2018/Assets/Scripts/EventsAndUserInteractions
 	url = https://github.com/anthonyromrell/EventsAndUserInteractions.git
