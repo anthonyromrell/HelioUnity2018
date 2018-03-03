@@ -7,3 +7,6 @@
 [submodule "attackofthegiantcyborgshrimp"]
 	path = attackofthegiantcyborgshrimp
 	url = https://anthonyromrell@bitbucket.org/anthonyromrell/attackofthegiantcyborgshrimp.git
+[submodule "Unity/HelioGame2018/Assets/Unite2017"]
+	path = Unity/HelioGame2018/Assets/Unite2017
+	url = https://github.com/anthonyromrell/Unite2017.git
