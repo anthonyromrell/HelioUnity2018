@@ -7,7 +7,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AnimBehaviours.cs" t="Include" />
-        <e p="AnimFunctionCall.cs" t="Include" />
         <e p="ChangeCamera.cs" t="Include" />
         <e p="Chess" t="Include">
           <e p="Scripts" t="Include">
@@ -19,52 +18,28 @@
               <e p="DisableHitBox.cs" t="Include" />
               <e p="MoveToBox.cs" t="Include" />
             </e>
-            <e p="Outside" t="Include">
-              <e p="ReplaceWithPrefab.cs" t="Include" />
-            </e>
             <e p="PiecesScripts" t="Include">
-              <e p="Animal.cs" t="Include" />
-              <e p="AnimalWork.cs" t="Include" />
-              <e p="Fish.cs" t="Include" />
-              <e p="GamePiece.cs" t="Include" />
-              <e p="GamePieceBase.cs" t="Include" />
-              <e p="GameSide.cs" t="Include" />
-              <e p="Mammal.cs" t="Include" />
-            </e>
-            <e p="UserInteraction" t="Include">
-              <e p="ClickOnPiece.cs" t="Include" />
-              <e p="UserInteraction.cs" t="Include" />
+              <e p="ClickEvent.cs" t="Include" />
+              <e p="GameEventSingle.cs" t="Include" />
+              <e p="Move.cs" t="Include" />
+              <e p="Piece.cs" t="Include" />
+              <e p="SimpleMove.cs" t="Include" />
             </e>
           </e>
         </e>
+        <e p="ChildObject.cs" t="Include" />
         <e p="Instancing" t="Include">
           <e p="CSharpInstance.cs" t="Include" />
           <e p="Instancing.cs" t="Include" />
+          <e p="VCSharpObject.cs" t="Include" />
         </e>
+        <e p="ParentObject.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
             </e>
           </e>
-        </e>
-        <e p="Scripts" t="Include">
-          <e p="Events" t="Include">
-            <e p="FunctionsAndEvents.cs" t="Include" />
-            <e p="RunSomethingAnything.cs" t="Include" />
-          </e>
-          <e p="EventsAndUserInteractions" t="Include">
-            <e p="ClickEvent.cs" t="Include" />
-            <e p="ClickNewEvent.cs" t="Include" />
-            <e p="DoOther.cs" t="Include" />
-            <e p="NewAction.cs" t="Include" />
-            <e p="PlayAction.cs" t="Include" />
-            <e p="PrintResponce.cs" t="Include" />
-          </e>
-        </e>
-        <e p="TheBasics" t="Include">
-          <e p="Players.cs" t="Include" />
-          <e p="Syntax.cs" t="Include" />
         </e>
         <e p="Unite" t="Include">
           <e p="Assets" t="Include">
@@ -108,6 +83,9 @@
                 <e p="VariableAudioTrigger.cs" t="Include" />
               </e>
             </e>
+          </e>
+          <e p="ProjectSettings" t="Include">
+            <e p="ProjectVersion.txt" t="Include" />
           </e>
         </e>
       </e>

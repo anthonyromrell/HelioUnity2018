@@ -8,12 +8,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307e8f158605d45d8971596d4dcfd9d5, type: 3}
-  m_Name: GamePlayers
+  m_Script: {fileID: 11500000, guid: 969ece317f4394be38e8fc20a1051737, type: 3}
+  m_Name: Knight
   m_EditorClassIdentifier: 
-  PlayerNames:
-  - Jim
-  - Jane
-  - Emma
-  - Fred
-  - Bob
+  GameBoard: {fileID: 0}
+  Art: {fileID: 0}
+  MovePattern: {fileID: 0}
+  GameSide: {fileID: 0}
+  GameBoard: {fileID: 0}

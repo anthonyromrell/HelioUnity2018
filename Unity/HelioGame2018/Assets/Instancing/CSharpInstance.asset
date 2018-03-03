@@ -8,6 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afde042156902ab4b9521d2a74eb2466, type: 3}
-  m_Name: AnimEvent
+  m_Script: {fileID: 11500000, guid: 484f225e16ed74ff985c131039e50d28, type: 3}
+  m_Name: CSharpInstance
   m_EditorClassIdentifier: 
+  Health: 10000
+  PlayerName: Fred
