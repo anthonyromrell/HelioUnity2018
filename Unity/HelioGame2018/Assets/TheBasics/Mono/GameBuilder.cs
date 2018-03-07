@@ -1,21 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameBuilder : MonoBehaviour
 {
 	public Game MyGame;
-	private GameObject _myInstance;
+	private GameObject myInstance;
 	
 	void Start ()
 	{
-		_myInstance  = Instantiate(MyGame.Ammo) as GameObject;
-		_myInstance.transform.position = MyGame.Position;
+		myInstance  = Instantiate(MyGame.Ammo) as GameObject;
+		myInstance.transform.position = MyGame.Position;
 	}
 
 	private void Update ()
 	{
-		MyGame.Position = _myInstance.transform.position;
+		MyGame.Position = myInstance.transform.position;
 		SaveData();
 	}
 	

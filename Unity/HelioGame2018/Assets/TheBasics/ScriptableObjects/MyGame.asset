@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Name: MyGame
   m_EditorClassIdentifier: 
   Ammo: {fileID: 1983257602963186, guid: 9d0389cbf60de4481b5610431a0e6803, type: 2}
-  Position: {x: -3.5, y: 1, z: 8.2}
+  Position: {x: -6.68, y: 1, z: 8.2}
+  Name: Bob
