@@ -10,12 +10,9 @@ public class NavMeshBehaviour : MonoBehaviour
 	void Start ()
 	{
 		NavMeshAgent = GetComponent<NavMeshAgent>();
-		NavMeshAgent.autoBraking = false;
 	}
 
 	void Update () {
-
 		AiBase.Navigate(NavMeshAgent);
-		
 	}
 }

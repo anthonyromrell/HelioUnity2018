@@ -13,14 +13,12 @@ public class GameBuilder : MonoBehaviour
 
 	private void Update ()
 	{
-		MyGame.Position = myInstance.transform.position;
-		SaveData();
+	//	MyGame.Position = myInstance.transform.position;
+		//SaveData();
 	}
 	
 	void SaveData()
 	{
 		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(MyGame));	
-		
-		Debug.Log(PlayerPrefs.GetString("GameData"));
 	}
 }

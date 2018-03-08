@@ -41,25 +41,17 @@
             </e>
           </e>
         </e>
-        <e p="Scripts" t="Include">
-          <e p="EventsAndUserInteractions" t="Include">
-            <e p="ClickEvent.cs" t="Include" />
-            <e p="ClickNewEvent.cs" t="Include" />
-            <e p="DoOther.cs" t="Include" />
-            <e p="NewAction.cs" t="Include" />
-            <e p="PlayAction.cs" t="Include" />
-            <e p="PrintResponce.cs" t="Include" />
-          </e>
-        </e>
         <e p="TheBasics" t="Include">
           <e p="mono" t="Include">
             <e p="GameBuilder.cs" t="Include" />
           </e>
           <e p="NavMesh" t="Include">
             <e p="AIBase.cs" t="Include" />
+            <e p="AiHunt.cs" t="Include" />
             <e p="AiPatrol.cs" t="Include" />
             <e p="NavMeshBehaviour.cs" t="Include" />
-            <e p="Patrol.cs" t="Include" />
+            <e p="SendAndGetObject.cs" t="Include" />
+            <e p="SendAndGetTransform.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
             <e p="Game.cs" t="Include" />

@@ -4,7 +4,6 @@ public class GameObjectInfo : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		print(gameObject.GetInstanceID());
 	}
 	
 }
