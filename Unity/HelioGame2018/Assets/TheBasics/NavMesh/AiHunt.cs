@@ -6,7 +6,7 @@ public class AiHunt : AiBase
 {
 	public SendAndGetObject IncomingObject;
 	
-	private Transform PlayerTransform;
+	private Transform Destination;
 
 	private void OnEnable()
 	{
@@ -15,11 +15,11 @@ public class AiHunt : AiBase
 
 	private void GetPlayerTransform ()
 	{
-		PlayerTransform = IncomingObject.Object as Transform;
+		Destination = IncomingObject.Object as Transform;
 	}
 
 	public override void Navigate(NavMeshAgent ai)
 	{
-		ai.SetDestination(PlayerTransform != null ? PlayerTransform.position : ai.transform.position);
+		ai.SetDestination(Destination != null ? Destination.position : ai.transform.position);
 	}
 }

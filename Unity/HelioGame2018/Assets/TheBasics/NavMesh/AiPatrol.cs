@@ -7,8 +7,6 @@ using UnityEngine.AI;
 public class AiPatrol : AiBase
 {
 	private int i = 0;
-
-	//public SendAndGetObject SendAndGetObject;
 	
 	public List<Transform> PatrolPoints { get; set; }
 	
@@ -18,29 +16,17 @@ public class AiPatrol : AiBase
 	{	
 		if (ai.remainingDistance < 1)
 		{
-			ChangePotrolPoint();
+			ChangePatrolPoint();
 		}
 		
 		ai.destination = PatrolPoints[i].position;
 	}
 
-	
-
-	private void ChangePotrolPoint()
+	private void ChangePatrolPoint()
 	{
 		if (i < PatrolPoints.Count-1)
 			i++;
 		else
 			i = 0;
 	}
-
-	/*private void OnEnable()
-	{
-		SendAndGetObject.SendObject.AddListener(UpdatePatrolPoints);
-	}
-
-	private void UpdatePatrolPoints()
-	{
-		PatrolPoints = (List<Transform>) SendAndGetObject.Object;
-	}*/
 }
