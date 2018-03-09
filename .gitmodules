@@ -7,3 +7,9 @@
 [submodule "Unity/HelioGame2018/Assets/Unite2017"]
 	path = Unity/HelioGame2018/Assets/Unite2017
 	url = https://github.com/anthonyromrell/Unite2017.git
+[submodule "Unity/HelioGame2018/Assets/Scripts/EventsAndUserInteractions"]
+	path = Unity/HelioGame2018/Assets/Scripts/EventsAndUserInteractions
+	url = https://github.com/anthonyromrell/EventsAndUserInteractions.git
+[submodule "Unity/HelioGame2018/Assets/Calculator"]
+	path = Unity/HelioGame2018/Assets/Calculator
+	url = https://github.com/anthonyromrell/Calculator.git
