@@ -2,12 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(fileName = "Transform")]
 public class SendAndGetTransform : SendAndGetObject {
 
 
-	public void GetObject(Transform obj)
-	{
-		Object = obj;
-	}
 }

@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 103e087c397ff4df4bd87af97aaf5da2, type: 3}
-  m_Name: Hunt
+  m_Script: {fileID: 11500000, guid: 8c3ef672703eb4fc3a054285f08776b7, type: 3}
+  m_Name: Patrol1
   m_EditorClassIdentifier: 
-  IncomingObject: {fileID: 11400000, guid: c02e522efc3f546d7885d80d1fb7e38d, type: 2}
+  PatrolPoints: []

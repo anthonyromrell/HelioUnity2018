@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.AI;
 
 [CreateAssetMenu(fileName = "Patrol")]
@@ -6,8 +7,11 @@ using UnityEngine.AI;
 public class AiPatrol : AiBase
 {
 	private int i = 0;
+
+	//public SendAndGetObject SendAndGetObject;
 	
-	public Transform[] PatrolPoints;
+	public List<Transform> PatrolPoints { get; set; }
+	
 	private int destPoint;
 
 	public override void Navigate(NavMeshAgent ai)
@@ -20,11 +24,23 @@ public class AiPatrol : AiBase
 		ai.destination = PatrolPoints[i].position;
 	}
 
+	
+
 	private void ChangePotrolPoint()
 	{
-		if (i < PatrolPoints.Length-1)
+		if (i < PatrolPoints.Count-1)
 			i++;
 		else
 			i = 0;
 	}
+
+	/*private void OnEnable()
+	{
+		SendAndGetObject.SendObject.AddListener(UpdatePatrolPoints);
+	}
+
+	private void UpdatePatrolPoints()
+	{
+		PatrolPoints = (List<Transform>) SendAndGetObject.Object;
+	}*/
 }

@@ -50,6 +50,7 @@
             <e p="AiHunt.cs" t="Include" />
             <e p="AiPatrol.cs" t="Include" />
             <e p="NavMeshBehaviour.cs" t="Include" />
+            <e p="PatrolPointControl.cs" t="Include" />
             <e p="SendAndGetObject.cs" t="Include" />
             <e p="SendAndGetTransform.cs" t="Include" />
           </e>
