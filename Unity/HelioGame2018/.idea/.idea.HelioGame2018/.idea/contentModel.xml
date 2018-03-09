@@ -41,22 +41,14 @@
             </e>
           </e>
         </e>
-        <e p="TheBasics" t="Include">
-          <e p="Calculator" t="Include">
-            <e p="EventWithObject.cs" t="Include" />
-            <e p="Scripts" t="Include">
-              <e p="Add.cs" t="Include" />
-              <e p="CalcParser.cs" t="Include" />
-              <e p="Calculate.cs" t="Include" />
-              <e p="CalculateButton.cs" t="Include" />
-              <e p="Number.cs" t="Include" />
-              <e p="Subtract.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Events" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="EventsAndUserInteractions" t="Include">
+            <e p="ClickEvent.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
           </e>
+        </e>
+        <e p="TheBasics" t="Include">
           <e p="mono" t="Include">
             <e p="GameBuilder.cs" t="Include" />
           </e>
@@ -76,6 +68,16 @@
             <e p="Ammo.cs" t="Include" />
             <e p="GameObjectInfo.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
+          </e>
+          <e p="theCalculator" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Add.cs" t="Include" />
+              <e p="CalcParser.cs" t="Include" />
+              <e p="Calculate.cs" t="Include" />
+              <e p="CalculateButton.cs" t="Include" />
+              <e p="Number.cs" t="Include" />
+              <e p="Subtract.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Unite2017" t="Include">
