@@ -42,17 +42,32 @@
           </e>
         </e>
         <e p="TheBasics" t="Include">
+          <e p="Calculator" t="Include">
+            <e p="EventWithObject.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Add.cs" t="Include" />
+              <e p="CalcParser.cs" t="Include" />
+              <e p="Calculate.cs" t="Include" />
+              <e p="CalculateButton.cs" t="Include" />
+              <e p="Number.cs" t="Include" />
+              <e p="Subtract.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Events" t="Include">
+            <e p="GameAction.cs" t="Include" />
+            <e p="GameActionHandler.cs" t="Include" />
+          </e>
           <e p="mono" t="Include">
             <e p="GameBuilder.cs" t="Include" />
           </e>
           <e p="NavMesh" t="Include">
             <e p="AIBase.cs" t="Include" />
             <e p="AiHunt.cs" t="Include" />
+            <e p="AiIdle.cs" t="Include" />
             <e p="AiPatrol.cs" t="Include" />
             <e p="NavMeshBehaviour.cs" t="Include" />
             <e p="PatrolPointControl.cs" t="Include" />
             <e p="SendAndGetObject.cs" t="Include" />
-            <e p="SendAndGetTransform.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
             <e p="Game.cs" t="Include" />

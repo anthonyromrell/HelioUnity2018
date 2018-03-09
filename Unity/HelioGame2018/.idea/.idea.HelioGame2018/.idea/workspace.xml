@@ -11,77 +11,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameBuilder.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Mono/GameBuilder.cs">
+      <file leaf-file-name="GameAction.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Events/GameAction.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="109">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
-                <marker date="1520466202817" expanded="true" signature="60:438" ph="{...}" />
-                <marker date="1520466202817" expanded="true" signature="132:245" ph="{...}" />
-                <marker date="1520466202817" expanded="true" signature="270:345" ph="{...}" />
-                <marker date="1520466202817" expanded="true" signature="275:342" ph="/* MyGame.Position = myInstance.transform.position; ... */" />
-                <marker date="1520466202817" expanded="true" signature="364:436" ph="{...}" />
+                <marker date="1520621970321" expanded="true" signature="6:104" ph="..." />
+                <marker date="1520621970321" expanded="true" signature="166:552" ph="{...}" />
+                <marker date="1520621970321" expanded="true" signature="262:308" ph="{...}" />
+                <marker date="1520621970321" expanded="true" signature="366:403" ph="{...}" />
+                <marker date="1520621970321" expanded="true" signature="438:475" ph="{...}" />
+                <marker date="1520621970321" expanded="true" signature="513:550" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AiHunt.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AiHunt.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiHunt.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <marker date="1520557142694" expanded="true" signature="6:40" ph="..." />
-                <marker date="1520557142694" expanded="true" signature="107:518" ph="{...}" />
-                <marker date="1520557142694" expanded="true" signature="210:277" ph="{...}" />
-                <marker date="1520557142694" expanded="true" signature="314:372" ph="{...}" />
-                <marker date="1520557142694" expanded="true" signature="421:516" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatrolPointControl.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/PatrolPointControl.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <marker date="1520555155452" expanded="true" signature="6:78" ph="..." />
-                <marker date="1520555155452" expanded="true" signature="127:721" ph="{...}" />
-                <marker date="1520555155452" expanded="true" signature="175:386" ph="{...}" />
-                <marker date="1520555155452" expanded="true" signature="331:383" ph="{...}" />
-                <marker date="1520555155452" expanded="true" signature="388:719" ph="/* public SendAndGetObject SendAndGetObject; ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendAndGetTransform.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetTransform.cs">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
-                <marker date="1520551113691" expanded="true" signature="6:78" ph="..." />
-                <marker date="1520551113691" expanded="true" signature="174:179" ph="{...}" />
+                <marker date="1520564247906" expanded="false" signature="6:66" ph="..." />
+                <marker date="1520564247906" expanded="true" signature="134:451" ph="{...}" />
+                <marker date="1520564247906" expanded="true" signature="247:305" ph="{...}" />
+                <marker date="1520564247906" expanded="true" signature="354:449" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavMeshBehaviour.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/NavMeshBehaviour.cs">
+      <file leaf-file-name="GameActionHandler.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Events/GameActionHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="22" />
               <folding>
-                <marker date="1520466170089" expanded="false" signature="6:40" ph="..." />
-                <marker date="1520466170089" expanded="true" signature="128:319" ph="{...}" />
-                <marker date="1520466170089" expanded="true" signature="209:262" ph="{...}" />
-                <marker date="1520466170089" expanded="true" signature="280:317" ph="{...}" />
+                <marker date="1520622274912" expanded="true" signature="6:161" ph="..." />
+                <marker date="1520622274912" expanded="true" signature="219:378" ph="{...}" />
+                <marker date="1520622274912" expanded="true" signature="281:325" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalcParser.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Calculator/Scripts/CalcParser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <marker date="1520622266287" expanded="true" signature="6:126" ph="..." />
+                <marker date="1520622266287" expanded="true" signature="171:400" ph="{...}" />
+                <marker date="1520622266287" expanded="true" signature="249:281" ph="{...}" />
+                <marker date="1520622266287" expanded="true" signature="328:398" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -90,45 +75,17 @@
       <file leaf-file-name="SendAndGetObject.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="25">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
-                <marker date="1520557012559" expanded="false" signature="6:104" ph="..." />
-                <marker date="1520557012559" expanded="true" signature="193:724" ph="{...}" />
-                <marker date="1520557012559" expanded="true" signature="306:341" ph="{...}" />
-                <marker date="1520557012559" expanded="true" signature="386:449" ph="{...}" />
-                <marker date="1520557012559" expanded="true" signature="507:548" ph="{...}" />
-                <marker date="1520557012559" expanded="true" signature="591:632" ph="{...}" />
-                <marker date="1520557012559" expanded="true" signature="681:722" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AiPatrol.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiPatrol.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-              <folding>
-                <marker date="1520556498068" expanded="true" signature="6:74" ph="..." />
-                <marker date="1520556498068" expanded="true" signature="146:515" ph="{...}" />
-                <marker date="1520556498068" expanded="true" signature="296:415" ph="{...}" />
-                <marker date="1520556498068" expanded="true" signature="332:364" ph="{...}" />
-                <marker date="1520556498068" expanded="true" signature="450:513" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AiBase.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiBase.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-              <folding>
-                <marker date="1520496828398" expanded="false" signature="6:40" ph="..." />
-                <marker date="1520496828398" expanded="true" signature="89:142" ph="{...}" />
+                <marker date="1520567366740" expanded="false" signature="6:104" ph="..." />
+                <marker date="1520567366740" expanded="true" signature="193:804" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="306:341" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="386:449" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="507:548" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="591:632" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="681:722" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="761:802" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -137,64 +94,53 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/Move.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/SimpleMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Instancing/VCSharpObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Variables/UnityEventRaiser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Instancing/Instancing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Instancing/CSharpInstance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Variables/Editor/FloatReferenceDrawer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiHunt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/NavMeshBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChildObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiIdle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/PatrolPointControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Sets/Thing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AnimBehaviours.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ParentObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Calculator/Scripts/CalcParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../HelioGameDev/Unity/NavMeshIdeas/NavMeshIdeas/Assets/Scripts/World-And-Level-Scripts/Singleton.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Events/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Events/GameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Mono/GameBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../ColorTheory/ColorTheory/Assets/Scripts/Color/GamePieceComponent.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Elements/AttackElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Elements/Elemental.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/Board/GameBoardBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/Board.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/MoveToBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Scripts/Ammo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/ClickEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Scripts/GameObjectInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GameEventSingle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Variables/FloatVariable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/ScriptableObjects/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Variables/FloatReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/Piece.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/Move.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/SimpleMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Variables/UnityEventRaiser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Calculator/EventWithObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Variables/Editor/FloatReferenceDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiHunt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Events/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiPatrol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChildObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AnimBehaviours.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ParentObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Calculator/Scripts/Number.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Mono/GameBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Events/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Scripts/Ammo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Scripts/GameObjectInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/ScriptableObjects/Game.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickNewEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/PlayAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/NewAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePiece.cs" />
-        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/Animal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/Mammal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/Fish.cs" />
-        <option value="$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/AnimalWork.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Events/FunctionsAndEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Events/RunSomethingAnything.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/Players.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/Syntax.cs" />
-        <option value="$PROJECT_DIR$/Assets/AnimFunctionCall.cs" />
-        <option value="$PROJECT_DIR$/Assets/ChangeCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Instancing/VCSharpObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Instancing/Instancing.cs" />
         <option value="$PROJECT_DIR$/Assets/Instancing/CSharpInstance.cs" />
         <option value="$PROJECT_DIR$/Assets/Chess/Scripts/MonoWorkFlow/MovePiece.cs" />
         <option value="$PROJECT_DIR$/Assets/Chess/Scripts/MonoWorkFlow/EventAR.cs" />
@@ -227,17 +173,33 @@
         <option value="$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetTransform.cs" />
         <option value="$PROJECT_DIR$/Assets/TheBasics/NavMesh/PatrolPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/TheBasics/NavMesh/PatrolPointControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiPatrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetObject.cs" />
         <option value="$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiHunt.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiIdle.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiPatrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Calculator/Calculate.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Calculator/Add.cs" />
+        <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/CalculateButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/Subtract.cs" />
+        <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/Calculate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/Add.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Calculator/EventWithObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Calculator/Scripts/Number.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/MyAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/MyListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/ActionListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/GameActionListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Calculator/Scripts/CalcParser.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/GameActionHandler.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="23" />
-    <option name="width" value="1271" />
-    <option name="height" value="843" />
+    <option name="x" value="4" />
+    <option name="y" value="31" />
+    <option name="width" value="971" />
+    <option name="height" value="819" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -270,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -302,7 +263,24 @@
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="TheBasics" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="NavMesh" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Calculator" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="HelioGame2018 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheBasics" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Calculator" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="HelioGame2018 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheBasics" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Events" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -310,6 +288,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,15 +323,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="23" width="1271" height="843" extended-state="0" />
+    <frame x="4" y="31" width="971" height="819" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25649095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2646756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34760052" sideWeight="0.50983477" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3587684" sideWeight="0.50983477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34760052" sideWeight="0.49016523" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -364,6 +342,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34760052" sideWeight="0.49016523" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -373,63 +352,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GamePiece.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Players.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/ChangeCamera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Syntax.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/AnimFunctionCall.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/MonoWorkFlow/MovePiece.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/MonoWorkFlow/EventAR.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/MonoWorkFlow/MoveEvent.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Unite/Assets/Code/Events/GameEventListener.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/MoveTo.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Unite/Assets/Code/Events/GameEvent.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/GameEventSingle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../HelioGameDev/Unity/NavMeshIdeas/NavMeshIdeas/Assets/Scripts/World-And-Level-Scripts/Singleton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Instancing/CSharpInstance.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Instancing/Instancing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Instancing/VCSharpObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Chess/Scripts/PiecesScripts/SimpleMove.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -491,12 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1520409167176" expanded="false" signature="0:55" ph="..." />
-            <marker date="1520409167176" expanded="true" signature="108:397" ph="{...}" />
-            <marker date="1520409167176" expanded="true" signature="336:395" ph="{...}" />
-            <marker date="1520409167176" expanded="true" signature="366:392" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,23 +425,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1520409167202" expanded="false" signature="0:18" ph="..." />
-            <marker date="1520409167202" expanded="true" signature="58:90" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/NavDestination.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/NavMeshBehavior.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/Patrol.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="29" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/Patrol.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Scripts/GameObjectInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -528,79 +438,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Events/GameEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-          <folding>
-            <marker date="1520060519356" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1520060519356" expanded="false" signature="272:318" ph="..." />
-            <marker date="1520060519356" expanded="true" signature="359:1211" ph="{...}" />
-            <marker date="1520060519356" expanded="true" signature="429:1209" ph="{...}" />
-            <marker date="1520060519356" expanded="true" signature="444:559" ph="/// The list of listeners that this event will notify if it is raised. ... " />
-            <marker date="1520060519356" expanded="true" signature="698:831" ph="{...}" />
-            <marker date="1520060519356" expanded="true" signature="897:1015" ph="{...}" />
-            <marker date="1520060519356" expanded="true" signature="1083:1203" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Events/GameEventListener.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <marker date="1520060519357" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1520060519357" expanded="false" signature="272:310" ph="..." />
-            <marker date="1520060519357" expanded="true" signature="351:875" ph="{...}" />
-            <marker date="1520060519357" expanded="true" signature="404:873" ph="{...}" />
-            <marker date="1520060519357" expanded="true" signature="619:681" ph="{...}" />
-            <marker date="1520060519357" expanded="true" signature="715:779" ph="{...}" />
-            <marker date="1520060519357" expanded="true" signature="816:867" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Variables/UnityEventRaiser.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <marker date="1520060519377" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1520060519377" expanded="false" signature="272:310" ph="..." />
-            <marker date="1520060519377" expanded="true" signature="354:549" ph="{...}" />
-            <marker date="1520060519377" expanded="true" signature="406:547" ph="{...}" />
-            <marker date="1520060519377" expanded="true" signature="485:541" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/TransformSo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/TransformSo.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/Player.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Elements/AttackElement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <marker date="1520060519353" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1520060519353" expanded="false" signature="272:318" ph="..." />
-            <marker date="1520060519353" expanded="true" signature="361:599" ph="{...}" />
-            <marker date="1520060519353" expanded="true" signature="435:597" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,15 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <marker date="1520060519354" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1520060519354" expanded="false" signature="272:306" ph="..." />
-            <marker date="1520060519354" expanded="true" signature="349:1025" ph="{...}" />
-            <marker date="1520060519354" expanded="true" signature="394:1023" ph="{...}" />
-            <marker date="1520060519354" expanded="true" signature="619:712" ph="{...}" />
-            <marker date="1520060519354" expanded="true" signature="765:1017" ph="{...}" />
-            <marker date="1520060519354" expanded="true" signature="872:1007" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,13 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <marker date="1520060519360" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1520060519360" expanded="true" signature="323:599" ph="{...}" />
-            <marker date="1520060519360" expanded="true" signature="364:597" ph="{...}" />
-            <marker date="1520060519360" expanded="true" signature="446:500" ph="{...}" />
-            <marker date="1520060519360" expanded="true" signature="534:591" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,15 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="54" />
-          <folding>
-            <marker date="1520060519368" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1520060519368" expanded="false" signature="272:303" ph="..." />
-            <marker date="1520060519368" expanded="true" signature="347:2593" ph="{...}" />
-            <marker date="1520060519368" expanded="true" signature="455:2591" ph="{...}" />
-            <marker date="1520060519368" expanded="true" signature="470:582" ph="/// Options to display in the popup to select constant or variable. ... " />
-            <marker date="1520060519368" expanded="true" signature="895:2585" ph="{...}" />
-            <marker date="1520060519368" expanded="true" signature="941:1114" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,15 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1520060519369" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1520060519369" expanded="true" signature="328:937" ph="{...}" />
-            <marker date="1520060519369" expanded="true" signature="402:935" ph="{...}" />
-            <marker date="1520060519369" expanded="true" signature="572:619" ph="{...}" />
-            <marker date="1520060519369" expanded="true" signature="670:723" ph="{...}" />
-            <marker date="1520060519369" expanded="true" signature="770:819" ph="{...}" />
-            <marker date="1520060519369" expanded="true" signature="874:929" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,22 +486,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <marker date="1520060519368" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1520060519368" expanded="true" signature="323:931" ph="{...}" />
-            <marker date="1520060519368" expanded="true" signature="376:929" ph="{...}" />
-            <marker date="1520060519368" expanded="true" signature="530:542" ph="{...}" />
-            <marker date="1520060519368" expanded="true" signature="586:673" ph="{...}" />
-            <marker date="1520060519368" expanded="true" signature="701:794" ph="{...}" />
-            <marker date="1520060519368" expanded="true" signature="867:923" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/PatrolPoint.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetTransform.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiBase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        <state relative-caret-position="30">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="28" />
           <folding>
             <marker date="1520496828398" expanded="false" signature="6:40" ph="..." />
             <marker date="1520496828398" expanded="true" signature="89:142" ph="{...}" />
@@ -693,11 +508,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/PatrolPoint.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/NavMeshBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1520466170089" expanded="false" signature="6:40" ph="..." />
+            <marker date="1520466170089" expanded="true" signature="128:319" ph="{...}" />
+            <marker date="1520466170089" expanded="true" signature="209:262" ph="{...}" />
+            <marker date="1520466170089" expanded="true" signature="280:317" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/PatrolPointControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <marker date="1520557294107" expanded="false" signature="6:78" ph="..." />
+            <marker date="1520557294107" expanded="true" signature="127:268" ph="{...}" />
+            <marker date="1520557294107" expanded="true" signature="175:266" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiIdle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1520564430330" expanded="false" signature="6:100" ph="..." />
+            <marker date="1520564430330" expanded="true" signature="168:230" ph="{...}" />
+            <marker date="1520564430330" expanded="true" signature="219:228" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -715,84 +559,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/NavMeshBehaviour.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Calculate.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <marker date="1520466170089" expanded="false" signature="6:40" ph="..." />
-            <marker date="1520466170089" expanded="true" signature="128:319" ph="{...}" />
-            <marker date="1520466170089" expanded="true" signature="209:262" ph="{...}" />
-            <marker date="1520466170089" expanded="true" signature="280:317" ph="{...}" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetTransform.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Add.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1520551113691" expanded="true" signature="6:78" ph="..." />
-            <marker date="1520551113691" expanded="true" signature="174:179" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/PatrolPointControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <marker date="1520555155452" expanded="true" signature="6:78" ph="..." />
-            <marker date="1520555155452" expanded="true" signature="127:721" ph="{...}" />
-            <marker date="1520555155452" expanded="true" signature="175:386" ph="{...}" />
-            <marker date="1520555155452" expanded="true" signature="331:383" ph="{...}" />
-            <marker date="1520555155452" expanded="true" signature="388:719" ph="/* public SendAndGetObject SendAndGetObject; ... */" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiPatrol.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="103">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
-            <marker date="1520556498068" expanded="true" signature="6:74" ph="..." />
-            <marker date="1520556498068" expanded="true" signature="146:515" ph="{...}" />
-            <marker date="1520556498068" expanded="true" signature="296:415" ph="{...}" />
-            <marker date="1520556498068" expanded="true" signature="332:364" ph="{...}" />
-            <marker date="1520556498068" expanded="true" signature="450:513" ph="{...}" />
+            <marker date="1520564919028" expanded="false" signature="6:74" ph="..." />
+            <marker date="1520564919028" expanded="true" signature="146:492" ph="{...}" />
+            <marker date="1520564919028" expanded="true" signature="273:392" ph="{...}" />
+            <marker date="1520564919028" expanded="true" signature="309:341" ph="{...}" />
+            <marker date="1520564919028" expanded="true" signature="427:490" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculateButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/Subtract.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/Calculate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/Add.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Events/MyAction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Events/MyListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Calculator/EventWithObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <marker date="1520573997826" expanded="false" signature="6:115" ph="..." />
+            <marker date="1520573997826" expanded="true" signature="158:168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Events/GameEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <marker date="1520060519356" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
+            <marker date="1520060519356" expanded="false" signature="272:318" ph="..." />
+            <marker date="1520060519356" expanded="true" signature="359:1211" ph="{...}" />
+            <marker date="1520060519356" expanded="true" signature="429:1209" ph="{...}" />
+            <marker date="1520060519356" expanded="true" signature="444:559" ph="/// The list of listeners that this event will notify if it is raised. ... " />
+            <marker date="1520060519356" expanded="true" signature="698:831" ph="{...}" />
+            <marker date="1520060519356" expanded="true" signature="897:1015" ph="{...}" />
+            <marker date="1520060519356" expanded="true" signature="1083:1203" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Calculator/Scripts/Number.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1520575703468" expanded="true" signature="6:104" ph="..." />
+            <marker date="1520575703468" expanded="true" signature="126:378" ph="{...}" />
+            <marker date="1520575703468" expanded="true" signature="193:376" ph="{...}" />
+            <marker date="1520575703468" expanded="true" signature="313:362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Events/GameEventListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <marker date="1520060519357" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
+            <marker date="1520060519357" expanded="false" signature="272:310" ph="..." />
+            <marker date="1520060519357" expanded="true" signature="351:875" ph="{...}" />
+            <marker date="1520060519357" expanded="true" signature="404:873" ph="{...}" />
+            <marker date="1520060519357" expanded="true" signature="619:681" ph="{...}" />
+            <marker date="1520060519357" expanded="true" signature="715:779" ph="{...}" />
+            <marker date="1520060519357" expanded="true" signature="816:867" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Events/ActionListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Events/GameActionListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="25">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
-            <marker date="1520557012559" expanded="false" signature="6:104" ph="..." />
-            <marker date="1520557012559" expanded="true" signature="193:724" ph="{...}" />
-            <marker date="1520557012559" expanded="true" signature="306:341" ph="{...}" />
-            <marker date="1520557012559" expanded="true" signature="386:449" ph="{...}" />
-            <marker date="1520557012559" expanded="true" signature="507:548" ph="{...}" />
-            <marker date="1520557012559" expanded="true" signature="591:632" ph="{...}" />
-            <marker date="1520557012559" expanded="true" signature="681:722" ph="{...}" />
+            <marker date="1520567366740" expanded="false" signature="6:104" ph="..." />
+            <marker date="1520567366740" expanded="true" signature="193:804" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="306:341" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="386:449" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="507:548" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="591:632" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="681:722" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="761:802" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiHunt.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <marker date="1520557142694" expanded="true" signature="6:40" ph="..." />
-            <marker date="1520557142694" expanded="true" signature="107:518" ph="{...}" />
-            <marker date="1520557142694" expanded="true" signature="210:277" ph="{...}" />
-            <marker date="1520557142694" expanded="true" signature="314:372" ph="{...}" />
-            <marker date="1520557142694" expanded="true" signature="421:516" ph="{...}" />
+            <marker date="1520564247906" expanded="false" signature="6:66" ph="..." />
+            <marker date="1520564247906" expanded="true" signature="134:451" ph="{...}" />
+            <marker date="1520564247906" expanded="true" signature="247:305" ph="{...}" />
+            <marker date="1520564247906" expanded="true" signature="354:449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Events/GameAction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1520621970321" expanded="true" signature="6:104" ph="..." />
+            <marker date="1520621970321" expanded="true" signature="166:552" ph="{...}" />
+            <marker date="1520621970321" expanded="true" signature="262:308" ph="{...}" />
+            <marker date="1520621970321" expanded="true" signature="366:403" ph="{...}" />
+            <marker date="1520621970321" expanded="true" signature="438:475" ph="{...}" />
+            <marker date="1520621970321" expanded="true" signature="513:550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Events/GameActionHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <marker date="1520622274912" expanded="true" signature="6:161" ph="..." />
+            <marker date="1520622274912" expanded="true" signature="219:378" ph="{...}" />
+            <marker date="1520622274912" expanded="true" signature="281:325" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/Calculator/Scripts/CalcParser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <marker date="1520622266287" expanded="true" signature="6:126" ph="..." />
+            <marker date="1520622266287" expanded="true" signature="171:400" ph="{...}" />
+            <marker date="1520622266287" expanded="true" signature="249:281" ph="{...}" />
+            <marker date="1520622266287" expanded="true" signature="328:398" ph="{...}" />
           </folding>
         </state>
       </provider>

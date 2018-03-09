@@ -36,4 +36,9 @@ public class SendAndGetObject : ScriptableObject
     {
         SendObjectWork(obj);
     }
+
+    public void GetObject(string obj)
+    {
+        SendObjectWork(obj);
+    }
 }

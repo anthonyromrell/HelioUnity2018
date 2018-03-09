@@ -8,9 +8,8 @@ public class AiPatrol : AiBase
 {
 	private int i = 0;
 	
-	public List<Transform> PatrolPoints { get; set; }
+	public List<Transform> PatrolPoints { get ; set; }
 	
-	private int destPoint;
 
 	public override void Navigate(NavMeshAgent ai)
 	{	
