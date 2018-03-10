@@ -7,6 +7,19 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AnimBehaviours.cs" t="Include" />
+        <e p="Calculator" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Calculation.cs" t="Include" />
+            <e p="Calculator.cs" t="Include" />
+            <e p="CalculatorConcept.cs" t="Include" />
+            <e p="CalculatorConceptPhase2.cs" t="Include" />
+            <e p="CalculatorData.cs" t="Include" />
+            <e p="CalculatorPhaseOne.cs" t="Include" />
+            <e p="CalculatorPhaseThree.cs" t="Include" />
+            <e p="CalculatorPhaseTwo.cs" t="Include" />
+            <e p="CalulatorPhase.cs" t="Include" />
+          </e>
+        </e>
         <e p="ChangeCamera.cs" t="Include" />
         <e p="Chess" t="Include">
           <e p="Scripts" t="Include">
@@ -46,6 +59,11 @@
             <e p="ClickEvent.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
+            <e p="TextActionHandler.cs" t="Include" />
+          </e>
+          <e p="UI-Scripts" t="Include">
+            <e p="StartButton.cs" t="Include" />
+            <e p="UpdateTextBehaviour.cs" t="Include" />
           </e>
         </e>
         <e p="TheBasics" t="Include">
@@ -68,16 +86,6 @@
             <e p="Ammo.cs" t="Include" />
             <e p="GameObjectInfo.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
-          </e>
-          <e p="theCalculator" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="Add.cs" t="Include" />
-              <e p="CalcParser.cs" t="Include" />
-              <e p="Calculate.cs" t="Include" />
-              <e p="CalculateButton.cs" t="Include" />
-              <e p="Number.cs" t="Include" />
-              <e p="Subtract.cs" t="Include" />
-            </e>
           </e>
         </e>
         <e p="Unite2017" t="Include">

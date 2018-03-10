@@ -13,3 +13,6 @@
 [submodule "Unity/HelioGame2018/Assets/Calculator"]
 	path = Unity/HelioGame2018/Assets/Calculator
 	url = https://github.com/anthonyromrell/Calculator.git
+[submodule "Unity/HelioGame2018/Assets/Scripts/UI-Scripts"]
+	path = Unity/HelioGame2018/Assets/Scripts/UI-Scripts
+	url = https://github.com/anthonyromrell/UI-Scripts.git
