@@ -45,14 +45,14 @@
       <file leaf-file-name="Calculator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/Calculator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="199">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <marker date="1520664542010" expanded="true" signature="6:128" ph="..." />
-                <marker date="1520664542010" expanded="true" signature="215:568" ph="{...}" />
-                <marker date="1520664542010" expanded="true" signature="285:334" ph="{...}" />
-                <marker date="1520664542010" expanded="true" signature="437:490" ph="{...}" />
-                <marker date="1520664542010" expanded="true" signature="518:565" ph="{...}" />
+                <marker date="1520703084124" expanded="true" signature="6:128" ph="..." />
+                <marker date="1520703084124" expanded="true" signature="215:607" ph="{...}" />
+                <marker date="1520703084124" expanded="true" signature="285:334" ph="{...}" />
+                <marker date="1520703084124" expanded="true" signature="437:530" ph="{...}" />
+                <marker date="1520703084124" expanded="true" signature="558:605" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,8 +75,8 @@
       <file leaf-file-name="CalculatorData.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <marker date="1520660846862" expanded="true" signature="6:78" ph="..." />
                 <marker date="1520660846862" expanded="true" signature="174:514" ph="{...}" />
@@ -90,8 +90,8 @@
       <file leaf-file-name="CalculatorPhaseTwo.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseTwo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <marker date="1520668817756" expanded="true" signature="6:78" ph="..." />
                 <marker date="1520668817756" expanded="true" signature="170:357" ph="{...}" />
@@ -119,13 +119,15 @@
       <file leaf-file-name="CalculatorPhaseThree.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseThree.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="446">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
-                <marker date="1520669610627" expanded="true" signature="6:78" ph="..." />
-                <marker date="1520669610627" expanded="true" signature="173:548" ph="{...}" />
-                <marker date="1520669610627" expanded="true" signature="208:436" ph="{...}" />
-                <marker date="1520669610627" expanded="true" signature="494:546" ph="{...}" />
+                <marker date="1520703173135" expanded="true" signature="6:78" ph="..." />
+                <marker date="1520703173135" expanded="true" signature="172:742" ph="{...}" />
+                <marker date="1520703173135" expanded="true" signature="236:630" ph="{...}" />
+                <marker date="1520703173135" expanded="true" signature="334:418" ph="{...}" />
+                <marker date="1520703173135" expanded="true" signature="425:473" ph="{...}" />
+                <marker date="1520703173135" expanded="true" signature="688:740" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -269,17 +271,17 @@
         <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseOne.cs" />
         <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/GameActionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/Calculator.cs" />
         <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseTwo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/TextActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI-Scripts/UpdateTextBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/Calculator.cs" />
         <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseThree.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="284" />
-    <option name="y" value="190" />
+    <option name="x" value="404" />
+    <option name="y" value="173" />
     <option name="width" value="971" />
     <option name="height" value="819" />
   </component>
@@ -403,10 +405,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="284" y="190" width="971" height="819" extended-state="0" />
+    <frame x="404" y="173" width="971" height="819" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2646756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2646756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3587684" sideWeight="0.50983477" order="7" side_tool="true" content_ui="tabs" />
@@ -784,45 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/Calculator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <marker date="1520664542010" expanded="true" signature="6:128" ph="..." />
-            <marker date="1520664542010" expanded="true" signature="215:568" ph="{...}" />
-            <marker date="1520664542010" expanded="true" signature="285:334" ph="{...}" />
-            <marker date="1520664542010" expanded="true" signature="437:490" ph="{...}" />
-            <marker date="1520664542010" expanded="true" signature="518:565" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520660846862" expanded="true" signature="6:78" ph="..." />
-            <marker date="1520660846862" expanded="true" signature="174:514" ph="{...}" />
-            <marker date="1520660846862" expanded="true" signature="350:398" ph="{...}" />
-            <marker date="1520660846862" expanded="true" signature="427:512" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseOne.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1520660767558" expanded="true" signature="6:78" ph="..." />
-            <marker date="1520660767558" expanded="true" signature="170:415" ph="{...}" />
-            <marker date="1520660767558" expanded="true" signature="242:408" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/GameAction.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
@@ -891,10 +854,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseOne.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1520660767558" expanded="true" signature="6:78" ph="..." />
+            <marker date="1520660767558" expanded="true" signature="170:415" ph="{...}" />
+            <marker date="1520660767558" expanded="true" signature="242:408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseTwo.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <marker date="1520668817756" expanded="true" signature="6:78" ph="..." />
             <marker date="1520668817756" expanded="true" signature="170:357" ph="{...}" />
@@ -903,15 +878,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <marker date="1520660846862" expanded="true" signature="6:78" ph="..." />
+            <marker date="1520660846862" expanded="true" signature="174:514" ph="{...}" />
+            <marker date="1520660846862" expanded="true" signature="350:398" ph="{...}" />
+            <marker date="1520660846862" expanded="true" signature="427:512" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/Calculator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1520703084124" expanded="true" signature="6:128" ph="..." />
+            <marker date="1520703084124" expanded="true" signature="215:607" ph="{...}" />
+            <marker date="1520703084124" expanded="true" signature="285:334" ph="{...}" />
+            <marker date="1520703084124" expanded="true" signature="437:530" ph="{...}" />
+            <marker date="1520703084124" expanded="true" signature="558:605" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseThree.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="446">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
-            <marker date="1520669610627" expanded="true" signature="6:78" ph="..." />
-            <marker date="1520669610627" expanded="true" signature="173:548" ph="{...}" />
-            <marker date="1520669610627" expanded="true" signature="208:436" ph="{...}" />
-            <marker date="1520669610627" expanded="true" signature="494:546" ph="{...}" />
+            <marker date="1520703173135" expanded="true" signature="6:78" ph="..." />
+            <marker date="1520703173135" expanded="true" signature="172:742" ph="{...}" />
+            <marker date="1520703173135" expanded="true" signature="236:630" ph="{...}" />
+            <marker date="1520703173135" expanded="true" signature="334:418" ph="{...}" />
+            <marker date="1520703173135" expanded="true" signature="425:473" ph="{...}" />
+            <marker date="1520703173135" expanded="true" signature="688:740" ph="{...}" />
           </folding>
         </state>
       </provider>
