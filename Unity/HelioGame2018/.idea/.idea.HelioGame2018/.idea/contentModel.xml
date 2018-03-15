@@ -6,8 +6,11 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AnimBehaviours.cs" t="Include" />
         <e p="Calculator" t="Include">
+          <e p="NewScripts" t="Include">
+            <e p="Add.cs" t="Include" />
+            <e p="CalcOperation.cs" t="Include" />
+          </e>
           <e p="Scripts" t="Include">
             <e p="Calculation.cs" t="Include" />
             <e p="Calculator.cs" t="Include" />
@@ -23,7 +26,6 @@
             <e p="TestParse.cs" t="Include" />
           </e>
         </e>
-        <e p="ChangeCamera.cs" t="Include" />
         <e p="Chess" t="Include">
           <e p="Scripts" t="Include">
             <e p="Board" t="Include">
@@ -43,13 +45,11 @@
             </e>
           </e>
         </e>
-        <e p="ChildObject.cs" t="Include" />
         <e p="Instancing" t="Include">
           <e p="CSharpInstance.cs" t="Include" />
           <e p="Instancing.cs" t="Include" />
           <e p="VCSharpObject.cs" t="Include" />
         </e>
-        <e p="ParentObject.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -59,11 +59,24 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="EventsAndUserInteractions" t="Include">
+            <e p="ChildObject.cs" t="Include" />
+            <e p="CickAction.cs" t="Include" />
             <e p="ClickEvent.cs" t="Include" />
             <e p="EventHandler.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
+            <e p="GameActionEvent.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
+            <e p="GameEventObjectListener.cs" t="Include" />
+            <e p="GameEventOject.cs" t="Include" />
+            <e p="ParentObject.cs" t="Include" />
             <e p="TextActionHandler.cs" t="Include" />
+          </e>
+          <e p="Generics" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="GenericObjecList.cs" t="Include" />
+              <e p="GenericObjectBase.cs" t="Include" />
+              <e p="SendAndGetObject.cs" t="Include" />
+            </e>
           </e>
           <e p="NavMeshComponents" t="Include">
             <e p="Assets" t="Include">
@@ -137,6 +150,9 @@
           </e>
         </e>
         <e p="TheBasics" t="Include">
+          <e p="AnimStates" t="Include">
+            <e p="AnimBehaviours.cs" t="Include" />
+          </e>
           <e p="mono" t="Include">
             <e p="GameBuilder.cs" t="Include" />
           </e>
@@ -147,7 +163,6 @@
             <e p="AiPatrol.cs" t="Include" />
             <e p="NavMeshBehaviour.cs" t="Include" />
             <e p="PatrolPointControl.cs" t="Include" />
-            <e p="SendAndGetObject.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
             <e p="Game.cs" t="Include" />
@@ -156,6 +171,14 @@
             <e p="Ammo.cs" t="Include" />
             <e p="GameObjectInfo.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ObjectBuilderEditor.cs" t="Include" />
+              <e p="ObjectBuilderScript.cs" t="Include" />
+              <e p="UIButton.cs" t="Include" />
+              <e p="UIConfig.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Unite2017" t="Include">
