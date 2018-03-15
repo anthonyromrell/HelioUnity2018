@@ -18,6 +18,9 @@
             <e p="CalculatorPhaseThree.cs" t="Include" />
             <e p="CalculatorPhaseTwo.cs" t="Include" />
             <e p="CalulatorPhase.cs" t="Include" />
+            <e p="Operation.cs" t="Include" />
+            <e p="Operator.cs" t="Include" />
+            <e p="TestParse.cs" t="Include" />
           </e>
         </e>
         <e p="ChangeCamera.cs" t="Include" />
@@ -57,9 +60,76 @@
         <e p="Scripts" t="Include">
           <e p="EventsAndUserInteractions" t="Include">
             <e p="ClickEvent.cs" t="Include" />
+            <e p="EventHandler.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
             <e p="TextActionHandler.cs" t="Include" />
+          </e>
+          <e p="NavMeshComponents" t="Include">
+            <e p="Assets" t="Include">
+              <e p="Examples" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="NavMeshPrefabInstanceEditor.cs" t="Include" />
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="AgentLinkMover.cs" t="Include" />
+                  <e p="ClickToMove.cs" t="Include" />
+                  <e p="DestroyOnTrigger.cs" t="Include" />
+                  <e p="DungeonManager.cs" t="Include" />
+                  <e p="EnableIffSleeping.cs" t="Include" />
+                  <e p="FreeCam.cs" t="Include" />
+                  <e p="LocalNavMeshBuilder.cs" t="Include" />
+                  <e p="MeshTool.cs" t="Include" />
+                  <e p="NavMeshPrefabInstance.cs" t="Include" />
+                  <e p="NavMeshSourceTag.cs" t="Include" />
+                  <e p="Oscillator.cs" t="Include" />
+                  <e p="RandomInstancing.cs" t="Include" />
+                  <e p="RandomWalk.cs" t="Include" />
+                  <e p="SpawnPrefabOnKeyDown.cs" t="Include" />
+                </e>
+              </e>
+              <e p="NavMeshComponents" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+                  <e p="NavMeshLinkEditor.cs" t="Include" />
+                  <e p="NavMeshModifierEditor.cs" t="Include" />
+                  <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+                  <e p="NavMeshSurfaceEditor.cs" t="Include" />
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="NavMeshLink.cs" t="Include" />
+                  <e p="NavMeshModifier.cs" t="Include" />
+                  <e p="NavMeshModifierVolume.cs" t="Include" />
+                  <e p="NavMeshSurface.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Tests" t="Include">
+                <e p="NavMeshSurfaceAgentTests.cs" t="Include" />
+                <e p="NavMeshSurfaceLinkTests.cs" t="Include" />
+                <e p="NavMeshSurfaceModifierTests.cs" t="Include" />
+                <e p="NavMeshSurfaceModifierVolumeTests.cs" t="Include" />
+                <e p="NavMeshSurfaceTests.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Store" t="Include">
+            <e p="CoinBase.cs" t="Include" />
+            <e p="OldStore" t="Include">
+              <e p="BuyGold.cs" t="Include" />
+              <e p="FishStore.cs" t="Include" />
+              <e p="GameController.cs" t="Include" />
+              <e p="GameData.cs" t="Include" />
+              <e p="GameDataView.cs" t="Include" />
+              <e p="IGameData.cs" t="Include" />
+              <e p="Purchaseable.cs" t="Include" />
+              <e p="PurchaseableBase.cs" t="Include" />
+              <e p="PurchaseManager.cs" t="Include" />
+              <e p="PurchaseObject.cs" t="Include" />
+              <e p="Store.cs" t="Include" />
+            </e>
+            <e p="PlayerStoreDataBase.cs" t="Include" />
+            <e p="PurchaseableObjectBase.cs" t="Include" />
+            <e p="StoreBase.cs" t="Include" />
           </e>
           <e p="UI-Scripts" t="Include">
             <e p="StartButton.cs" t="Include" />

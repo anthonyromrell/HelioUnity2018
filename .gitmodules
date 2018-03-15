@@ -16,3 +16,12 @@
 [submodule "Unity/HelioGame2018/Assets/Scripts/UI-Scripts"]
 	path = Unity/HelioGame2018/Assets/Scripts/UI-Scripts
 	url = https://github.com/anthonyromrell/UI-Scripts.git
+[submodule "Unity/HelioGame2018/Assets/Scripts/NavMeshComponents"]
+	path = Unity/HelioGame2018/Assets/Scripts/NavMeshComponents
+	url = https://github.com/anthonyromrell/NavMeshComponents.git
+[submodule "Unity/HelioGame2018/Assets/Scripts/Store"]
+	path = Unity/HelioGame2018/Assets/Scripts/Store
+	url = https://github.com/anthonyromrell/Store.git
+[submodule "Unity/HelioGame2018/Assets/Scripts/Generics"]
+	path = Unity/HelioGame2018/Assets/Scripts/Generics
+	url = https://github.com/anthonyromrell/Generics.git
