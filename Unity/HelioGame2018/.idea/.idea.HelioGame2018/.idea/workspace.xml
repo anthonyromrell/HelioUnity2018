@@ -11,44 +11,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThingRuntimeSet.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Sets/ThingRuntimeSet.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding>
-                <marker date="1520060519362" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-                <marker date="1520060519362" expanded="true" signature="400:407" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UIButton.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UIButton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <marker date="1521068531580" expanded="false" signature="6:74" ph="..." />
-                <marker date="1521068531580" expanded="true" signature="107:303" ph="{...}" />
-                <marker date="1521068531580" expanded="true" signature="148:299" ph="{...}" />
-                <marker date="1521068531580" expanded="true" signature="267:296" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UIConfig.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UIConfig.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="594">
+              <caret line="36" column="1" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
               <folding>
-                <marker date="1521095324210" expanded="true" signature="6:93" ph="..." />
+                <marker date="1521095324210" expanded="false" signature="6:93" ph="..." />
                 <marker date="1521095324210" expanded="true" signature="176:474" ph="{...}" />
                 <marker date="1521095324210" expanded="true" signature="268:472" ph="{...}" />
                 <marker date="1521095324210" expanded="true" signature="361:469" ph="{...}" />
+                <marker date="1521095324210" expanded="true" signature="546:735" ph="{...}" />
                 <marker date="1521095324210" expanded="true" signature="587:733" ph="{...}" />
                 <marker date="1521095324210" expanded="true" signature="698:730" ph="{...}" />
               </folding>
@@ -59,23 +32,23 @@
       <file leaf-file-name="GenericObjectBase.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjectBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding>
-                <marker date="1521127288540" expanded="false" signature="6:52" ph="..." />
-                <marker date="1521127288540" expanded="true" signature="116:320" ph="{...}" />
-                <marker date="1521127288540" expanded="true" signature="182:235" ph="{...}" />
-                <marker date="1521127288540" expanded="true" signature="263:318" ph="{...}" />
+                <marker date="1521153992288" expanded="false" signature="6:52" ph="..." />
+                <marker date="1521153992288" expanded="true" signature="116:337" ph="{...}" />
+                <marker date="1521153992288" expanded="true" signature="199:252" ph="{...}" />
+                <marker date="1521153992288" expanded="true" signature="280:335" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericObjecList.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenericObjecList.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjecList.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <marker date="1521127329876" expanded="true" signature="114:123" ph="{...}" />
               </folding>
@@ -83,33 +56,107 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuntimeSet.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Sets/RuntimeSet.cs">
+      <file leaf-file-name="StoreButton.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Store/Scripts/StoreButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="411">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <marker date="1520060519359" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-                <marker date="1520060519359" expanded="false" signature="272:318" ph="..." />
-                <marker date="1520060519359" expanded="true" signature="357:739" ph="{...}" />
-                <marker date="1520060519359" expanded="true" signature="418:737" ph="{...}" />
-                <marker date="1520060519359" expanded="true" signature="504:598" ph="{...}" />
-                <marker date="1520060519359" expanded="true" signature="635:731" ph="{...}" />
+                <marker date="1521167783012" expanded="true" signature="6:59" ph="..." />
+                <marker date="1521167783012" expanded="true" signature="148:464" ph="{...}" />
+                <marker date="1521167783012" expanded="true" signature="365:462" ph="{...}" />
+                <marker date="1521167783012" expanded="true" signature="542:739" ph="{...}" />
+                <marker date="1521167783012" expanded="true" signature="583:737" ph="{...}" />
+                <marker date="1521167783012" expanded="true" signature="704:734" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectBuilderEditor.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/ObjectBuilderEditor.cs">
+      <file leaf-file-name="ClickEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="207">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="34" />
               <folding>
-                <marker date="1521087897600" expanded="true" signature="6:63" ph="..." />
-                <marker date="1521087897600" expanded="true" signature="150:372" ph="{...}" />
-                <marker date="1521087897600" expanded="true" signature="191:368" ph="{...}" />
-                <marker date="1521087897600" expanded="true" signature="330:365" ph="{...}" />
+                <marker date="1520632751790" expanded="false" signature="6:55" ph="..." />
+                <marker date="1520632751790" expanded="true" signature="77:253" ph="{...}" />
+                <marker date="1520632751790" expanded="true" signature="123:250" ph="{...}" />
+                <marker date="1520632751790" expanded="true" signature="197:244" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UILocator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UILocator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <marker date="1521168960810" expanded="false" signature="6:78" ph="..." />
+                <marker date="1521168960810" expanded="true" signature="144:358" ph="{...}" />
+                <marker date="1521168960810" expanded="true" signature="227:356" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoreButtons.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Store/Sprites/StoreButtons.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <marker date="1521170223591" expanded="true" signature="6:125" ph="..." />
+                <marker date="1521170223591" expanded="true" signature="194:440" ph="{...}" />
+                <marker date="1521170223591" expanded="true" signature="286:438" ph="{...}" />
+                <marker date="1521170223591" expanded="true" signature="330:435" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameUnityEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/GameUnityEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <marker date="1521154745576" expanded="true" signature="116:205" ph="{...}" />
+                <marker date="1521154745576" expanded="true" signature="176:202" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/SendEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <marker date="1521154237701" expanded="true" signature="6:118" ph="..." />
+                <marker date="1521154237701" expanded="true" signature="216:223" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendAndGetObject.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/SendAndGetObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1520567366740" expanded="false" signature="6:104" ph="..." />
+                <marker date="1520567366740" expanded="true" signature="193:804" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="306:341" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="386:449" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="507:548" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="591:632" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="681:722" ph="{...}" />
+                <marker date="1520567366740" expanded="true" signature="761:802" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -121,23 +168,23 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/TextActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Instancing/VCSharpObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/NewScripts/Add.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Store/StoreBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Store/Sprites/StoreButtons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Instancing/Instancing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/SendAndGetObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Instancing/CSharpInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/NewScripts/CalcOperation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/TestParse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Store/PlayerStoreDataBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/NavMeshBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiIdle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/Calculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/GameUnityEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/PatrolPointControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Sets/Thing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseThree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Sets/RuntimeSet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Sets/ThingDisabler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorConcept.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Store/CoinBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Sets/ThingRuntimeSet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/GameActionEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UIButton.cs" root0="FORCE_HIGHLIGHTING" />
@@ -145,9 +192,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Events/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Events/GameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../ColorTheory/ColorTheory/Assets/Scripts/Color/GamePieceComponent.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/SendEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Elements/AttackElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorConceptPhase2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Store/PurchaseableObjectBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Elements/Elemental.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/Board/GameBoardBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Chess/Scripts/HitBox/Board.cs" root0="FORCE_HIGHLIGHTING" />
@@ -173,6 +220,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/ObjectBuilderScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiHunt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Store/Scripts/StoreButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI-Scripts/UpdateTextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjecList.cs" root0="FORCE_HIGHLIGHTING" />
@@ -180,7 +228,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseOne.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjectBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UIConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/EventTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/EventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UILocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheBasics/Mono/GameBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/Operation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/CickAction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -192,15 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/MyAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/MyListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/ActionListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/GameActionListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/GameAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/Calculator/Scripts/CalcParser.cs" />
-        <option value="$PROJECT_DIR$/Assets/TheBasics/Events/GameActionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorMain.cs" />
-        <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/Calculate.cs" />
         <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/Subtract.cs" />
         <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/CalculateButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Calculator/Scripts/Add.cs" />
@@ -241,16 +282,25 @@
         <option value="$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UIConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/Coin.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjectBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjecList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GameEventSend.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/ObjectEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjectBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/SendEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/GameUnityEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/EventTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Store/StoreButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Store/Scripts/StoreButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UILocator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Store/Sprites/StoreButtons.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="543" />
+    <option name="x" value="293" />
     <option name="y" value="23" />
-    <option name="width" value="894" />
-    <option name="height" value="741" />
+    <option name="width" value="1053" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -289,6 +339,41 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="HelioGame2018 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="HelioGame2018 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="HelioGame2018 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="HelioGame2018 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="HelioGame2018 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Generics" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="HelioGame2018 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Generics" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -331,10 +416,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="543" y="23" width="894" height="741" extended-state="0" />
+    <frame x="293" y="23" width="1053" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28747204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24406458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4005979" sideWeight="0.50983477" order="7" side_tool="true" content_ui="tabs" />
@@ -366,71 +451,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculateButton.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/AiHunt.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalcParser.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorConcept.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/Calculation.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="488" column="0" lean-forward="false" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI-Scripts/UpdateTextBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/GameActionHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseOne.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorPhaseTwo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalulatorPhase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -568,13 +588,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/NavMesh/SendAndGetObject.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Calculator/Scripts/CalculatorData.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -655,21 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UIConfig.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <marker date="1521095324210" expanded="true" signature="6:93" ph="..." />
-            <marker date="1521095324210" expanded="true" signature="176:474" ph="{...}" />
-            <marker date="1521095324210" expanded="true" signature="268:472" ph="{...}" />
-            <marker date="1521095324210" expanded="true" signature="361:469" ph="{...}" />
-            <marker date="1521095324210" expanded="true" signature="587:733" ph="{...}" />
-            <marker date="1521095324210" expanded="true" signature="698:730" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Unite2017/Assets/Code/Sets/RuntimeSet.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -677,7 +676,6 @@
           <folding>
             <marker date="1520060519359" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
             <marker date="1520060519359" expanded="false" signature="272:318" ph="..." />
-            <marker date="1520060519359" expanded="true" signature="357:739" ph="{...}" />
             <marker date="1520060519359" expanded="true" signature="418:737" ph="{...}" />
             <marker date="1520060519359" expanded="true" signature="504:598" ph="{...}" />
             <marker date="1520060519359" expanded="true" signature="635:731" ph="{...}" />
@@ -685,31 +683,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObject.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/Coin.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/SendAndGetObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520567366740" expanded="false" signature="6:104" ph="..." />
+            <marker date="1520567366740" expanded="true" signature="193:804" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="306:341" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="386:449" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="507:548" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="591:632" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="681:722" ph="{...}" />
+            <marker date="1520567366740" expanded="true" signature="761:802" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GameEventSend.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/Coin.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/ObjectEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="15">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjectBase.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/SendEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <marker date="1521127288540" expanded="false" signature="6:52" ph="..." />
-            <marker date="1521127288540" expanded="true" signature="116:320" ph="{...}" />
-            <marker date="1521127288540" expanded="true" signature="182:235" ph="{...}" />
-            <marker date="1521127288540" expanded="true" signature="263:318" ph="{...}" />
+            <marker date="1521154237701" expanded="true" signature="6:118" ph="..." />
+            <marker date="1521154237701" expanded="true" signature="216:223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/GameUnityEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1521154745576" expanded="true" signature="116:205" ph="{...}" />
+            <marker date="1521154745576" expanded="true" signature="176:202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Store/StoreButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/EventTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1521164545643" expanded="true" signature="6:140" ph="..." />
+            <marker date="1521164545643" expanded="true" signature="206:277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UIConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <marker date="1521095324210" expanded="false" signature="6:93" ph="..." />
+            <marker date="1521095324210" expanded="true" signature="176:474" ph="{...}" />
+            <marker date="1521095324210" expanded="true" signature="268:472" ph="{...}" />
+            <marker date="1521095324210" expanded="true" signature="361:469" ph="{...}" />
+            <marker date="1521095324210" expanded="true" signature="546:735" ph="{...}" />
+            <marker date="1521095324210" expanded="true" signature="587:733" ph="{...}" />
+            <marker date="1521095324210" expanded="true" signature="698:730" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Store/Scripts/StoreButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1521167783012" expanded="true" signature="6:59" ph="..." />
+            <marker date="1521167783012" expanded="true" signature="148:464" ph="{...}" />
+            <marker date="1521167783012" expanded="true" signature="365:462" ph="{...}" />
+            <marker date="1521167783012" expanded="true" signature="542:739" ph="{...}" />
+            <marker date="1521167783012" expanded="true" signature="583:737" ph="{...}" />
+            <marker date="1521167783012" expanded="true" signature="704:734" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EventsAndUserInteractions/ClickEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <marker date="1520632751790" expanded="false" signature="6:55" ph="..." />
+            <marker date="1520632751790" expanded="true" signature="77:253" ph="{...}" />
+            <marker date="1520632751790" expanded="true" signature="123:250" ph="{...}" />
+            <marker date="1520632751790" expanded="true" signature="197:244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TheBasics/UI/Scripts/UILocator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <marker date="1521168960810" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521168960810" expanded="true" signature="144:358" ph="{...}" />
+            <marker date="1521168960810" expanded="true" signature="227:356" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -717,9 +818,35 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjecList.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <marker date="1521127329876" expanded="true" signature="114:123" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generics/Scripts/GenericObjectBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <marker date="1521153992288" expanded="false" signature="6:52" ph="..." />
+            <marker date="1521153992288" expanded="true" signature="116:337" ph="{...}" />
+            <marker date="1521153992288" expanded="true" signature="199:252" ph="{...}" />
+            <marker date="1521153992288" expanded="true" signature="280:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Store/Sprites/StoreButtons.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1521170223591" expanded="true" signature="6:125" ph="..." />
+            <marker date="1521170223591" expanded="true" signature="194:440" ph="{...}" />
+            <marker date="1521170223591" expanded="true" signature="286:438" ph="{...}" />
+            <marker date="1521170223591" expanded="true" signature="330:435" ph="{...}" />
           </folding>
         </state>
       </provider>

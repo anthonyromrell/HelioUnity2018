@@ -68,11 +68,14 @@
             <e p="GameActionHandler.cs" t="Include" />
             <e p="GameEventObjectListener.cs" t="Include" />
             <e p="GameEventOject.cs" t="Include" />
+            <e p="GameUnityEvent.cs" t="Include" />
             <e p="ParentObject.cs" t="Include" />
+            <e p="SendEvent.cs" t="Include" />
             <e p="TextActionHandler.cs" t="Include" />
           </e>
           <e p="Generics" t="Include">
             <e p="Scripts" t="Include">
+              <e p="EventTest.cs" t="Include" />
               <e p="GenericObjecList.cs" t="Include" />
               <e p="GenericObjectBase.cs" t="Include" />
               <e p="SendAndGetObject.cs" t="Include" />
@@ -124,9 +127,11 @@
                 <e p="NavMeshSurfaceTests.cs" t="Include" />
               </e>
             </e>
+            <e p="ProjectSettings" t="Include">
+              <e p="ProjectVersion.txt" t="Include" />
+            </e>
           </e>
           <e p="Store" t="Include">
-            <e p="CoinBase.cs" t="Include" />
             <e p="OldStore" t="Include">
               <e p="BuyGold.cs" t="Include" />
               <e p="FishStore.cs" t="Include" />
@@ -140,9 +145,16 @@
               <e p="PurchaseObject.cs" t="Include" />
               <e p="Store.cs" t="Include" />
             </e>
-            <e p="PlayerStoreDataBase.cs" t="Include" />
-            <e p="PurchaseableObjectBase.cs" t="Include" />
-            <e p="StoreBase.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="CoinBase.cs" t="Include" />
+              <e p="PlayerStoreDataBase.cs" t="Include" />
+              <e p="PurchaseableObjectBase.cs" t="Include" />
+              <e p="StoreBase.cs" t="Include" />
+              <e p="StoreButton.cs" t="Include" />
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="StoreButtons.cs" t="Include" />
+            </e>
           </e>
           <e p="UI-Scripts" t="Include">
             <e p="StartButton.cs" t="Include" />
@@ -178,6 +190,7 @@
               <e p="ObjectBuilderScript.cs" t="Include" />
               <e p="UIButton.cs" t="Include" />
               <e p="UIConfig.cs" t="Include" />
+              <e p="UILocator.cs" t="Include" />
             </e>
           </e>
         </e>

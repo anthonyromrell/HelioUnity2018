@@ -25,3 +25,6 @@
 [submodule "Unity/HelioGame2018/Assets/Scripts/Generics"]
 	path = Unity/HelioGame2018/Assets/Scripts/Generics
 	url = https://github.com/anthonyromrell/Generics.git
+[submodule "Unity/HelioGame2018/Assets/unity-ui-extensions"]
+	path = Unity/HelioGame2018/Assets/unity-ui-extensions
+	url = https://bitbucket.org/anthonyromrell/unity-ui-extensions.git
