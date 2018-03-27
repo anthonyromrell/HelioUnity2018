@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512b86c7ae63fe04c8c62616568703ff, type: 3}
+  m_Name: Sea - 2. Light Breeze
+  m_EditorClassIdentifier: 
+  _Data:
+    _SpectrumType: 1
+    _WindSpeed: 1.8004
+    _TileSize: 180
+    _TileScale: 1
+    _WavesAmplitude: 0.6
+    _WavesFrequencyScale: 1
+    _HorizontalDisplacementScale: 3
+    _PhillipsCutoffFactor: 2000
+    _Gravity: -9.81
+    _Fetch: 40000
+    _Directionality: 0.221
+    _AbsorptionColor: {r: 0.3209077, g: 0.15219174, b: 0.11631345, a: 1}
+    _CustomUnderwaterAbsorptionColor: 0
+    _AbsorptionColorByDepth:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    _AbsorptionColorByDepthFlatGradient:
+      serializedVersion: 2
+      key0: {r: 0.32156864, g: 0.15294118, b: 0.11764706, a: 1}
+      key1: {r: 0.32156864, g: 0.15294118, b: 0.11764706, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    _DiffuseColor: {r: 0.3921569, g: 0.4431373, b: 0.42352945, a: 1}
+    _SpecularColor: {r: 0.028942337, g: 0.028942337, b: 0.028942337, a: 1}
+    _DepthColor: {r: 0, g: 0, b: 0, a: 1}
+    _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
+    _Smoothness: 0.85
+    _CustomAmbientSmoothness: 0
+    _AmbientSmoothness: 0.94
+    _IsotropicScatteringIntensity: 1
+    _ForwardScatteringIntensity: 1
+    _SubsurfaceScatteringContrast: 0.627
+    _SubsurfaceScatteringShoreColor: {r: 1.4, g: 3, b: 3, a: 1}
+    _RefractionDistortion: 0.55
+    _FresnelBias: 0.02040781
+    _DetailFadeDistance: 2.5
+    _DisplacementNormalsIntensity: 1.4
+    _PlanarReflectionIntensity: 0.786
+    _PlanarReflectionFlatten: 2.4
+    _PlanarReflectionVerticalOffset: 0.0015
+    _EdgeBlendFactor: 0.5
+    _DirectionalWrapSss: 0.35
+    _PointWrapSss: 0.5
+    _Density: 998.6
+    _UnderwaterBlurSize: 0.003
+    _UnderwaterLightFadeScale: 0.62
+    _UnderwaterDistortionsIntensity: 0.018
+    _UnderwaterDistortionAnimationSpeed: 0.08
+    _DynamicSmoothnessIntensity: 14
+    _NormalMapAnimation1:
+      _Speed: 3
+      _Deviation: -10
+      _Intensity: 1
+      _Tiling: {x: 1, y: 1}
+    _NormalMapAnimation2:
+      _Speed: -0.55
+      _Deviation: 20
+      _Intensity: 0.74
+      _Tiling: {x: 1.5, y: 1.5}
+    _NormalMap: {fileID: 0}
+    _FoamIntensity: 0.35
+    _FoamThreshold: 12
+    _FoamFadingFactor: 0.96
+    _FoamShoreIntensity: 0
+    _FoamShoreExtent: 2.06
+    _FoamNormalScale: 0.82
+    _FoamDiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+    _FoamSpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    _SprayThreshold: 1
+    _SpraySkipRatio: 0.9
+    _SpraySize: 1
+    _FoamDiffuseMap: {fileID: 2800000, guid: a6af3d656432b204e8960024bebccf7a, type: 3}
+    _FoamNormalMap: {fileID: 2800000, guid: c424cb098c67a2d48946c5c3a97c3cb9, type: 3}
+    _FoamTiling: {x: 12, y: 12}
+    _Template: {fileID: 11400000}
+    Dirty: 0

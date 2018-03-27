@@ -1,0 +1,81 @@
+﻿#pragma kernel Interaction
+
+#include "WaveParticlesCommon.cginc"
+#include "../Includes/Random.cginc"
+
+struct VertexData
+{
+    float3 position;
+    float3 normal;
+};
+
+StructuredBuffer<VertexData> Vertices;
+AppendStructuredBuffer<ParticleData> Particles : register(u0);
+StructuredBuffer<float4x4> ObjectToWorld;
+StructuredBuffer<float4x4> WaterProjectorVP;
+float WaterLevel;
+float4 _LocalMapsCoords;
+
+Texture2D<half4> TotalDisplacementMap;
+SamplerState samplerTotalDisplacementMap;
+
+[numthreads(256, 1, 1)]
+void Interaction(uint id : SV_DispatchThreadID)
+{
+    uint idx2 = id * 2;
+    VertexData vertex1 = Vertices[idx2];
+
+    vertex1.position = mul(ObjectToWorld[0], float4(vertex1.position, 1.0)).rgb;
+
+    float r = random(float2(vertex1.position.x, vertex1.position.y * id));
+
+    if(r < 0.999)
+        return;
+
+    VertexData vertex2 = Vertices[idx2 + 1];
+    vertex2.position = mul(ObjectToWorld[0], float4(vertex2.position, 1.0)).rgb;
+
+    //float2 midPosition = lerp(vertex1.position, vertex2.position, 0.5).xz;
+    float2 midPosition = vertex1.position.y < vertex2.position.y ? vertex1.position.xz : vertex2.position.xz;
+    float2 localUv = midPosition * _LocalMapsCoords.zz + _LocalMapsCoords.xy;
+    float waterLevel = WaterLevel + TotalDisplacementMap.SampleLevel(samplerTotalDisplacementMap, localUv, 0).y;
+
+    float elevation1 = vertex1.position.y - waterLevel;
+    float elevation2 = vertex2.position.y - waterLevel;
+
+    if(elevation1 * elevation2 < 0.0)
+    {
+        vertex1.normal = mul((float3x3)ObjectToWorld[0], vertex1.normal);
+        vertex2.normal = mul((float3x3)ObjectToWorld[0], vertex2.normal);
+
+        //float p = abs(elevation1 / (elevation1 - elevation2));
+        float p = random(float2(elevation1, elevation2 + id));
+
+        float3 position = lerp(vertex1.position, vertex2.position, p);
+        float3 normal = lerp(vertex1.normal, vertex2.normal, p);
+        float edgeLen = length(vertex1.position - vertex2.position);
+
+        float2 dir = normalize(normal.xz);
+        //position.xz += dir * 0.0;
+
+        if(isnan(dir.x))
+            return;
+
+        localUv = position.xz * _LocalMapsCoords.zz + _LocalMapsCoords.xy;
+        position.xz -= TotalDisplacementMap.SampleLevel(samplerTotalDisplacementMap, localUv, 0).xz;
+
+        ParticleData particle;
+        particle.position = position.xz;
+        particle.direction = dir * 1;
+        particle.wavelength = edgeLen * 0.2;
+        particle.amplitude = 0.002f;
+        particle.initialLifetime = 3;
+        particle.lifetime = 3;
+        particle.uvOffsetPack = id * 16 + (id % 4) + 4;
+        particle.foam = 15;
+        particle.trailCalming = 0.0f;
+        particle.trailFoam = 0.0f;
+
+        Particles.Append(particle);
+    }
+}

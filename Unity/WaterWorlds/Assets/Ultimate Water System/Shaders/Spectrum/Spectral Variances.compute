@@ -1,0 +1,82 @@
+//
+// Derived from the paper and accompanying implementation:
+// "Real-time Realistic Ocean Lighting using
+// Seamless Transitions from Geometry to BRDF"
+// Eric Bruneton, Fabrice Neyret, Nicolas Holzschuch
+//
+
+#pragma kernel Compute
+
+Texture2D<float4> _Spectrum  : register(t0);
+RWTexture3D<float2> _Variance  : register(u0);
+
+int _FFTSize;
+int _FFTSizeHalf;
+float _IntensityScale;
+float _VariancesSize;
+float4 _TileSizes;
+float3 _Coordinates;
+
+static uint2 offsets[4] = {uint2(0, 0), uint2(1, 0), uint2(0, 1), uint2(1, 1)};
+
+groupshared float2 results[1024];
+
+float2 GetSlopeVariance(float2 k, float A, float B, float C, float2 spectrumSample)
+{
+    float w = 1.0 - exp(A * k.x * k.x + B * k.x * k.y + C * k.y * k.y);
+    float2 kw = k * w;
+    return kw * kw * dot(spectrumSample, spectrumSample) * 2.0;
+}
+
+[numthreads(1024, 1, 1)]
+void Compute(uint id : SV_DispatchThreadID)
+{
+    const float SCALE = 10.0;
+
+    float A = pow(_Coordinates.x / (_VariancesSize - 1.0), 4.0) * SCALE;
+    float C = pow(_Coordinates.z / (_VariancesSize - 1.0), 4.0) * SCALE;
+    float B = (2.0 * _Coordinates.y / (_VariancesSize - 1.0) - 1.0) * sqrt(A * C);
+    A = -0.5 * A;
+    B = -B;
+    C = -0.5 * C;
+
+    float start = (id / 1024.0) * _FFTSize;
+    float end = start + _FFTSize / 1024.0;
+    float stepSize = 1.0 / _FFTSize;
+
+    float2 variance = float2(0.0, 0.0);
+
+    for(int scaleIndex = 0; scaleIndex < 4; ++scaleIndex)
+    {
+        float tileSize = _TileSizes[scaleIndex];
+        uint2 offset = offsets[scaleIndex] * _FFTSize;
+
+        for(float i = start; i < end; i += stepSize)
+        {
+            int2 uv;
+            uv.x = round(modf(i, /*out*/ uv.y) * _FFTSize);
+
+            int i = uv.x >= _FFTSizeHalf ? uv.x - _FFTSize : uv.x;
+            int j = uv.y >= _FFTSizeHalf ? uv.y - _FFTSize : uv.y;
+
+            float2 k = 2.0 * 3.14159 * float2(i, j) / tileSize;
+
+            float2 spectrum = _Spectrum[offset + uv].xy;
+            variance += GetSlopeVariance(k, A, B, C, spectrum);
+        }
+    }
+
+    results[id] = variance * _IntensityScale;
+
+    GroupMemoryBarrierWithGroupSync();
+
+    if(id == 0)
+    {
+        variance = float2(0.0, 0.0);
+
+        for(int i = 0; i < 1024; ++i)
+            variance += results[i];
+
+        _Variance[_Coordinates] = variance.yx;
+    }
+}

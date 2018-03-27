@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9954acc3fea28ca49a5863928bc7ff21, type: 3}
+  m_Name: Puddle
+  m_EditorClassIdentifier: 
+  _TransparencyMode: 1
+  _ReflectionProbeUsage: 2
+  _PlanarReflections: 1
+  _ReceiveShadows: 0
+  _WindWavesMode: 0
+  _DynamicSmoothnessMode: 0
+  _LocalEffectsSupported: 0
+  _LocalEffectsDebug: 0
+  _Foam: 0
+  _ForwardRenderMode: 1
+  _DeferredRenderMode: 1
+  _ProjectionGrid: 0
+  _CustomTriangularGeometry: 1
+  _DisplayOnlyInAdditiveVolumes: 0
+  _WavesAlign: 0
+  _NormalMappingMode: 1
+  _SupportEmission: 0
+  _SurfaceShaders:
+  - {fileID: 4800000, guid: 170f4b5654f5a1540978695ca582232e, type: 3}
+  _VolumeShaders:
+  - {fileID: 4800000, guid: 9cc90cb926f9e7645864ddba18314f19, type: 3}
+  _UtilityShaders:
+  - {fileID: 4800000, guid: e9a7e79715e28a541a3610d926193364, type: 3}
+  - {fileID: 4800000, guid: 64bdf8c460574fe4eadf1780693edfb8, type: 3}
+  - {fileID: 4800000, guid: 3b204187f543deb49942ffa9918e3987, type: 3}
+  - {fileID: 4800000, guid: d09daa6f13a385f4497c91e74d615ad9, type: 3}
+  _ComputeShaders:
+  - {fileID: 7200000, guid: 53b9e771c13f794409adf46b608c6df9, type: 3}

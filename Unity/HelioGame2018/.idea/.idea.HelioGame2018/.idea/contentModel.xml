@@ -109,13 +109,6 @@
                   <e p="NavMeshSurface.cs" t="Include" />
                 </e>
               </e>
-              <e p="Tests" t="Include">
-                <e p="NavMeshSurfaceAgentTests.cs" t="Include" />
-                <e p="NavMeshSurfaceLinkTests.cs" t="Include" />
-                <e p="NavMeshSurfaceModifierTests.cs" t="Include" />
-                <e p="NavMeshSurfaceModifierVolumeTests.cs" t="Include" />
-                <e p="NavMeshSurfaceTests.cs" t="Include" />
-              </e>
             </e>
             <e p="ProjectSettings" t="Include">
               <e p="ProjectVersion.txt" t="Include" />
@@ -131,8 +124,6 @@
               <e p="IGameData.cs" t="Include" />
               <e p="Purchaseable.cs" t="Include" />
               <e p="PurchaseableBase.cs" t="Include" />
-              <e p="PurchaseManager.cs" t="Include" />
-              <e p="PurchaseObject.cs" t="Include" />
               <e p="Store.cs" t="Include" />
             </e>
             <e p="Scripts" t="Include">
@@ -140,15 +131,22 @@
               <e p="PlayerStoreDataBase.cs" t="Include" />
               <e p="PurchaseableObjectBase.cs" t="Include" />
               <e p="StoreBase.cs" t="Include" />
-              <e p="StoreButton.cs" t="Include" />
-            </e>
-            <e p="Sprites" t="Include">
-              <e p="InstanceStoreButtons.cs" t="Include" />
             </e>
           </e>
           <e p="UI-Scripts" t="Include">
             <e p="StartButton.cs" t="Include" />
             <e p="UpdateTextBehaviour.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="Effects" t="Include">
+            <e p="Projectors" t="Include">
+              <e p="Guidelines.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="ProjectorLight.shader" t="Include" />
+                <e p="ProjectorMultiply.shader" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
         <e p="TheBasics" t="Include">
@@ -170,6 +168,7 @@
             <e p="MySceneManger.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
+            <e p="BasicText.cs" t="Include" />
             <e p="Game.cs" t="Include" />
           </e>
           <e p="Scripts" t="Include">
@@ -177,15 +176,6 @@
             <e p="GameObjectInfo.cs" t="Include" />
             <e p="MeshInfo.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
-          </e>
-          <e p="UI" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="ObjectBuilderEditor.cs" t="Include" />
-              <e p="ObjectBuilderScript.cs" t="Include" />
-              <e p="UIButton.cs" t="Include" />
-              <e p="UIConfig.cs" t="Include" />
-              <e p="UILocator.cs" t="Include" />
-            </e>
           </e>
         </e>
         <e p="Unite2017" t="Include">
