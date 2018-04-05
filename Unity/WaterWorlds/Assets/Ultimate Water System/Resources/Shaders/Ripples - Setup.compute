@@ -1,0 +1,49 @@
+﻿#pragma kernel Setup
+#pragma kernel MultiSetup
+
+#include "UnityCG.cginc"
+
+// Wave simulation textures
+// Previous = t - 1;
+// Current  = t - 2;
+RWTexture2D<float> Previous;
+RWTexture2D<float> Current;
+
+uniform float4 Position;
+uniform float Force = 1.0f;
+
+uniform int _Scale = 1;
+
+uniform float4 data[512];
+
+// circle setup
+[numthreads(1, 1, 1)]
+void Setup(uint3 id : SV_DispatchThreadID)
+{
+    const int radius = _Scale;
+
+    for(int i = -radius; i <= radius; ++i)
+    {
+        for(int j = -radius; j <= radius; ++j)
+        {
+            if((i*i + j*j) <= radius * radius)
+            {
+                Current[uint2(Position.x + i, Position.y + j)] += Force * 0.01f;
+            }
+        }
+    }
+}
+
+[numthreads(1, 1, 1)]
+void MultiSetup(uint3 id : SV_DispatchThreadID)
+{
+    const float2 position = data[id.x].xy;
+    const float  force = data[id.x].z;
+
+    if(position.x < 0.0f || position.y < 0.0f)
+    {
+        return;
+    }
+
+    Current[uint2(position.x, position.y)] += force * 0.01f;
+}

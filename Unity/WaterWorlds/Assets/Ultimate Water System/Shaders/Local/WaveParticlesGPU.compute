@@ -1,0 +1,36 @@
+﻿#pragma kernel UpdateParticles
+#pragma kernel SpawnParticles
+
+#include "WaveParticlesCommon.cginc"
+
+ConsumeStructuredBuffer<ParticleData> SourceParticles : register(u0);
+AppendStructuredBuffer<ParticleData> Particles : register(u1);
+
+StructuredBuffer<ParticleData> SpawnedParticles : register(t0);
+
+float deltaTime;
+float2 surfaceOffsetDelta;
+
+[numthreads(16, 1, 1)]
+void UpdateParticles(uint id : SV_DispatchThreadID)
+{
+    ParticleData particle = SourceParticles.Consume();
+    particle.lifetime -= deltaTime;
+
+    if(particle.lifetime > 0.0)
+    {
+        particle.position += particle.direction * deltaTime * (particle.lifetime / particle.initialLifetime) + surfaceOffsetDelta;
+        Particles.Append(particle);
+    }
+}
+
+[numthreads(16, 1, 1)]
+void SpawnParticles(uint id : SV_DispatchThreadID)
+{
+    ParticleData particle = SpawnedParticles[id];
+
+    if(particle.lifetime > 0.0)
+    {
+        Particles.Append(particle);
+    }
+}

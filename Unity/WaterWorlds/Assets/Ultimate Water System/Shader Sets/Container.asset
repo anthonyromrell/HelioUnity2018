@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9954acc3fea28ca49a5863928bc7ff21, type: 3}
+  m_Name: Container
+  m_EditorClassIdentifier: 
+  _TransparencyMode: 1
+  _ReflectionProbeUsage: 2
+  _PlanarReflections: 1
+  _ReceiveShadows: 0
+  _WindWavesMode: 0
+  _DynamicSmoothnessMode: 0
+  _LocalEffectsSupported: 1
+  _LocalEffectsDebug: 0
+  _Foam: 1
+  _ForwardRenderMode: 1
+  _DeferredRenderMode: 1
+  _ProjectionGrid: 0
+  _CustomTriangularGeometry: 1
+  _DisplayOnlyInAdditiveVolumes: 1
+  _WavesAlign: 1
+  _NormalMappingMode: 1
+  _SupportEmission: 0
+  _SurfaceShaders:
+  - {fileID: 4800000, guid: acf4654a60ab53943b82cb79621ccea2, type: 3}
+  _VolumeShaders:
+  - {fileID: 4800000, guid: 6e2eb17179d3e8b4699516135b6e31d0, type: 3}
+  _UtilityShaders:
+  - {fileID: 4800000, guid: e9a7e79715e28a541a3610d926193364, type: 3}
+  - {fileID: 4800000, guid: 64bdf8c460574fe4eadf1780693edfb8, type: 3}
+  - {fileID: 4800000, guid: 3b204187f543deb49942ffa9918e3987, type: 3}
+  - {fileID: 4800000, guid: d09daa6f13a385f4497c91e74d615ad9, type: 3}
+  - {fileID: 4800000, guid: 38039a1b012f6fc4faa86e143e10352a, type: 3}
+  - {fileID: 4800000, guid: 7207c986c9af312458df8d0aa15adb4b, type: 3}
+  - {fileID: 4800000, guid: 3d6d84b7796fd084494e0b4f2f4f92d8, type: 3}
+  - {fileID: 4800000, guid: 473083b5d068f8849a0e35255e9e806e, type: 3}
+  _ComputeShaders:
+  - {fileID: 7200000, guid: 53b9e771c13f794409adf46b608c6df9, type: 3}

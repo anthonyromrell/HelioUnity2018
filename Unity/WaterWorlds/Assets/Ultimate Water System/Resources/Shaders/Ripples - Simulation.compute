@@ -1,0 +1,75 @@
+#pragma kernel Simulation
+#include "UnityCG.cginc"
+
+// Wave simulation textures
+RWTexture2D<float> MatrixT1;
+RWTexture2D<float> MatrixT2;
+
+// Depth data
+Texture2D<float4> DepthT1;
+Texture2D<float4> Depth;
+Texture2D<float> StaticDepth;
+
+// Settings
+uniform float Propagation = 1.0f;
+uniform float Damping = 0.2f;
+
+uniform float Gain = 0.05f;
+
+uniform float HeightOffset = 2.0f;
+uniform float HeightGain = 2.0f;
+
+uniform float _WaterHeight = 0.0f;
+
+uniform float2 SizeInv;
+uniform int2 Size;
+
+// Samplers
+SamplerState samplerDepth;
+SamplerState samplerDepthT1;
+SamplerState samplerStaticDepth;
+SamplerState samplerPerlin;
+
+[numthreads(8, 8, 1)]
+void Simulation(uint3 id : SV_DispatchThreadID)
+{
+    if(id.x == 0 || id.y == 0 || id.x == (uint) Size.x || id.y == (uint) Size.y)
+    {
+        return;
+    }
+
+    const uint2 center_idx = uint2(id.x, id.y);
+    const uint2 left_idx = uint2(id.x - 1, id.y);
+    const uint2 right_idx = uint2(id.x + 1, id.y);
+    const uint2 bottom_idx = uint2(id.x, id.y - 1);
+    const uint2 top_idx = uint2(id.x, id.y + 1);
+
+    const float static_height = StaticDepth.SampleLevel(samplerStaticDepth, uint2(id.x, id.y) * SizeInv, 0);
+    if(static_height > 0.0f && static_height != 0.0f)
+    {
+        return;
+    }
+
+    const float4 data = Depth.SampleLevel(samplerDepth, center_idx * SizeInv, 0);
+
+    const float3 velocity = data.rgb;
+    const float velocity_magnitude = length(velocity);
+
+    const float height = data.a;
+    const float previous_height = DepthT1.SampleLevel(samplerDepthT1, center_idx * SizeInv, 0).a;
+
+    const float left = lerp(MatrixT1[center_idx], MatrixT1[left_idx], Propagation);
+    const float right = lerp(MatrixT1[center_idx], MatrixT1[right_idx], Propagation);
+    const float top = lerp(MatrixT1[center_idx], MatrixT1[top_idx], Propagation);
+    const float bottom = lerp(MatrixT1[center_idx], MatrixT1[bottom_idx], Propagation);
+
+    const float previous_value = MatrixT2[center_idx];
+
+    MatrixT2[center_idx] = 0.5f * (left + right + top + bottom) - previous_value;
+    MatrixT2[center_idx] -= MatrixT2[center_idx] * Damping;
+
+    if(abs(height) > 0.001f && abs(previous_height) > 0.001f)
+    {
+        MatrixT2[center_idx] += 0.1f * Gain / pow((abs(height) * HeightGain + HeightOffset), 5.0f) * velocity_magnitude;
+    }
+}

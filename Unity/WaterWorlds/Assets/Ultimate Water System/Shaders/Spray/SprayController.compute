@@ -1,0 +1,71 @@
+#pragma kernel UpdateParticles
+#pragma kernel ClearParticles
+#pragma kernel SpawnParticles
+
+struct ParticleData
+{
+    float3 position;
+    float3 velocity;
+    float2 lifetime;
+    float offset;
+    float maxIntensity;
+};
+
+AppendStructuredBuffer<ParticleData> TargetParticles : register(u1);
+RWStructuredBuffer<ParticleData> TargetParticlesFlat : register(u2);
+Texture2D<half4>	TotalDisplacementMap;
+StructuredBuffer<ParticleData> SourceParticles;
+
+SamplerState samplerTotalDisplacementMap;
+
+float particleCount;
+float2 deltaTime;
+float4 waterTileSizesInv;
+float surfaceOffsetY;
+float3 surfaceOffsetDelta;
+float4 externalForces;
+float4 localMapsCoords;
+
+[numthreads(256, 1, 1)]
+void UpdateParticles(uint id : SV_DispatchThreadID)
+{
+    ParticleData particle = SourceParticles[id];
+    particle.lifetime.x -= deltaTime.x;
+    particle.velocity *= deltaTime.y;			// (1.0 - deltaTime.x * 0.2);
+    particle.velocity += externalForces.xyz;
+    particle.position += surfaceOffsetDelta;
+
+    float h = surfaceOffsetY + TotalDisplacementMap.SampleLevel(samplerTotalDisplacementMap, (particle.position.xz + localMapsCoords.xy) * localMapsCoords.zz, 0).y;
+
+    if(particle.position.y < -9080)
+        particle.position.y = h + (particle.position.y + 10000);
+
+    float fade = min(0, particle.position.y - h + 1);
+    particle.lifetime.x += fade * 0.4;
+    particle.maxIntensity += fade;
+
+    if(particle.lifetime.x > 0 && particle.maxIntensity > 0)
+    {
+        particle.position += particle.velocity * deltaTime.x;
+        TargetParticles.Append(particle);
+    }
+}
+
+[numthreads(256, 1, 1)]
+void ClearParticles(uint id : SV_DispatchThreadID)
+{
+    //TargetParticlesFlat[id].lifetime.x = 0;
+    ParticleData particle = TargetParticlesFlat[id];
+    particle.lifetime = 0;
+    TargetParticlesFlat[id] = particle;
+}
+
+[numthreads(1, 1, 1)]
+void SpawnParticles()
+{
+    for(int i = 0; i < particleCount; ++i)
+    {
+        ParticleData particle = SourceParticles[i];
+        TargetParticles.Append(particle);
+    }
+}

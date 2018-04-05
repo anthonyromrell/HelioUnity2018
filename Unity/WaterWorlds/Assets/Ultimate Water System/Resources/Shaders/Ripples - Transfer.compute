@@ -1,0 +1,38 @@
+﻿#pragma kernel HorizontalTransfer
+#pragma kernel VerticalTransfer
+#include "UnityCG.cginc"
+
+RWTexture2D<float> DestinationA;
+RWTexture2D<float> DestinationB;
+
+Texture2D<float> SourceA;
+Texture2D<float> SourceB;
+
+SamplerState samplerSourceA;
+SamplerState samplerSourceB;
+
+uniform int From;
+uniform int To;
+
+uniform float InvWidth;
+uniform float InvHeight;
+
+[numthreads(8, 1, 1)]
+void HorizontalTransfer(uint3 id : SV_DispatchThreadID)
+{
+    const float uv_x = id.x * InvWidth;
+    const float uv_y = From * InvHeight;
+
+    DestinationA[uint2(id.x, To)] = SourceA.SampleLevel(samplerSourceA, float2(uv_x, uv_y), 0);
+    DestinationB[uint2(id.x, To)] = SourceB.SampleLevel(samplerSourceB, float2(uv_x, uv_y), 0);
+}
+
+[numthreads(1, 8, 1)]
+void VerticalTransfer(uint3 id : SV_DispatchThreadID)
+{
+    const float uv_x = From * InvWidth;
+    const float uv_y = id.y * InvHeight;
+
+    DestinationA[uint2(To, id.y)] = SourceA.SampleLevel(samplerSourceA, float2(uv_x, uv_y), 0);
+    DestinationB[uint2(To, id.y)] = SourceB.SampleLevel(samplerSourceB, float2(uv_x, uv_y), 0);
+}

@@ -1,0 +1,40 @@
+#pragma kernel Gaussian_Horizontal
+#pragma kernel Gaussian_Vertical
+
+Texture2D<float> Input;
+RWTexture2D<float> Output;
+
+// weights
+float k0;
+float k1;
+float k2;
+
+// horizontal pass
+[numthreads(8, 8, 1)]
+void Gaussian_Horizontal(uint3 id : SV_DispatchThreadID)
+{
+    const int kernel = 3;
+    const int dim = (kernel - 1) / 2;
+    const float w[kernel] = {k0, k1, k2};
+
+    Output[id.xy] = 0.0f;
+    for(int i = -dim; i <= dim; ++i)
+    {
+        Output[id.xy] += Input[id.xy + uint2(i, 0)] * w[i + dim];
+    }
+}
+
+// vertical pass
+[numthreads(8, 8, 1)]
+void Gaussian_Vertical(uint3 id : SV_DispatchThreadID)
+{
+    const int kernel = 3;
+    const int dim = (kernel - 1) / 2;
+    const float w[kernel] = {k0, k1, k2};
+
+    Output[id.xy] = 0.0f;
+    for(int i = -dim; i <= dim; ++i)
+    {
+        Output[id.xy] += Input[id.xy + uint2(0, i)] * w[i + dim];
+    }
+}

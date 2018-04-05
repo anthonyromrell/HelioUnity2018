@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14feec8436f7e4b4aa9ac00b327bb2c0, type: 3}
+  m_Name: WaterProjectSettings
+  m_EditorClassIdentifier: 
+  _SerializedVersion: 2
+  _WaterLayer: 4
+  _WaterTempLayer: 21
+  _WaterCollidersLayer: 1
+  _PhysicsThreads: 1
+  _PhysicsThreadsPriority: 0
+  _AllowCpuFFT: 1
+  _AllowFloatingPointMipMapsOverride: 1
+  _DebugPhysics: 0
+  _AskForWaterCameras: 1
+  _AbsorptionEditMode: 1
+  _SpecularEditMode: 1
+  _SinglePassStereoRendering: 0
+  _DisableMultisampling: 1
+  _ClipWaterCameraRange: 0
+  _CameraClipRange: 1000
+  _RenderInSceneView: 0

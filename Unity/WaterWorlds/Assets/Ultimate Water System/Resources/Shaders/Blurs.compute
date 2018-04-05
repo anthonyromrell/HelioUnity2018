@@ -1,0 +1,95 @@
+﻿#pragma kernel Blur W=128 H=1 DIM=128 ID=id.x
+#pragma kernel Blur W=1 H=128 DIM=128 ID=id.y
+#pragma kernel Blur W=256 H=1 DIM=256 ID=id.x
+#pragma kernel Blur W=1 H=256 DIM=256 ID=id.y
+#pragma kernel Blur W=512 H=1 DIM=512 ID=id.x
+#pragma kernel Blur W=1 H=512 DIM=512 ID=id.y
+
+#pragma kernel BlurSSS W=128 H=1 DIM=128 ID=id.x
+#pragma kernel BlurSSS W=1 H=128 DIM=128 ID=id.y
+#pragma kernel BlurSSS W=256 H=1 DIM=256 ID=id.x
+#pragma kernel BlurSSS W=1 H=256 DIM=256 ID=id.y
+#pragma kernel BlurSSS W=512 H=1 DIM=512 ID=id.x
+#pragma kernel BlurSSS W=1 H=512 DIM=512 ID=id.y
+
+Texture2D<float4> _MainTex : register(t0);
+RWTexture2D<float4> _Output : register(u0);
+
+StructuredBuffer<float4> weights;
+float4 _AbsorptionColorPerPixel;
+float _DensityWeight;
+int _FilterSize;
+
+groupshared float4 buffer[2][DIM];
+groupshared float4 bufferSingle[DIM];
+groupshared float4 absorptionWeights[DIM];
+
+[numthreads(W, H, 1)]
+void Blur(uint2 id : SV_DispatchThreadID)
+{
+    int invidx = DIM - ID;
+    int neginvidx = -invidx;
+    uint2 bufferIndices = uint2(0, 1);
+
+    buffer[0][ID] = _MainTex[id];
+
+    uint index1 = ID >= 3 ? ID - 3 : invidx - 3;
+    uint index2 = ID >= 2 ? ID - 2 : invidx - 2;
+    uint index3 = ID >= 1 ? ID - 1 : invidx - 1;
+    uint index4 = ID < DIM - 1 ? ID + 1 : neginvidx + 1;
+    uint index5 = ID < DIM - 2 ? ID + 2 : neginvidx + 2;
+    uint index6 = ID < DIM - 3 ? ID + 3 : neginvidx + 3;
+
+    GroupMemoryBarrierWithGroupSync();
+
+    for(int i = 0; i < 4; ++i)
+    {
+        half4 blurred = 0.0;
+        blurred += buffer[bufferIndices.x][index1] * weights[3];
+        blurred += buffer[bufferIndices.x][index2] * weights[2];
+        blurred += buffer[bufferIndices.x][index3] * weights[1];
+        blurred += buffer[bufferIndices.x][ID] * weights[0];
+        blurred += buffer[bufferIndices.x][index4] * weights[1];
+        blurred += buffer[bufferIndices.x][index5] * weights[2];
+        blurred += buffer[bufferIndices.x][index6] * weights[3];
+
+        bufferIndices.xy = bufferIndices.yx;
+        buffer[bufferIndices.x][ID] = blurred;
+
+        GroupMemoryBarrierWithGroupSync();
+    }
+
+    _Output[id] = buffer[bufferIndices.x][ID];
+}
+
+[numthreads(W, H, 1)]
+void BlurSSS(uint2 id : SV_DispatchThreadID)
+{
+    int invidx = DIM - ID;
+    int neginvidx = -invidx;
+    int negid = -(int)ID;
+    uint2 bufferIndices = uint2(0, 1);
+
+    bufferSingle[ID] = _MainTex[id];
+    absorptionWeights[ID] = exp(_AbsorptionColorPerPixel * ID);
+
+    GroupMemoryBarrierWithGroupSync();
+
+    float4 blurred = 0.0f;
+    int t = min(DIM, ID + _FilterSize);
+
+    for(int i = max(0, ID - _FilterSize); i < t; i += 2)
+        blurred += bufferSingle[i] * absorptionWeights[abs(i + negid)];
+
+    t = ID + _FilterSize - DIM;
+
+    for(int i2 = 0; i < t; i2 += 2)
+        blurred += bufferSingle[i2] * absorptionWeights[abs(i2 + negid)];
+
+    t = DIM + ID - _FilterSize;
+
+    for(int i3 = DIM - 1; i3 >= t; i3 -= 2)
+        blurred += bufferSingle[i3] * absorptionWeights[abs(i3 + negid)];
+
+    _Output[id] = blurred / exp(-_DensityWeight * 10) * 0.1;
+}
