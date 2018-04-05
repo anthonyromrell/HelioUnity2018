@@ -28,3 +28,6 @@
 [submodule "Unity/HelioGame2018/Assets/unity-ui-extensions"]
 	path = Unity/HelioGame2018/Assets/unity-ui-extensions
 	url = https://bitbucket.org/anthonyromrell/unity-ui-extensions.git
+[submodule "UnityHelioGame2018/Assets/Scripts/AI"]
+	path = UnityHelioGame2018/Assets/Scripts/AI
+	url = https://github.com/anthonyromrell/AI.git
